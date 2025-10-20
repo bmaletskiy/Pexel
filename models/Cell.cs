@@ -1,87 +1,74 @@
 using System;
 using System.Collections.Generic;
-using System.Linq;
+using Pexel.ExpressionLogic; 
 
 namespace Pexel.models
 {
-    public class Cell : System.ComponentModel.INotifyPropertyChanged
+    public class Cell
     {
-        private string _expression;
-        private string _value;
+        public string Id { get; }
+        public string? Expression { get; set; }
+        public string? Value { get; set; }
 
-        public event System.ComponentModel.PropertyChangedEventHandler? PropertyChanged;
-        private void OnPropertyChanged(string? name) => PropertyChanged?.Invoke(this, new System.ComponentModel.PropertyChangedEventArgs(name));
-
-        public string Expression
+        public Cell(string id)
         {
-            get => _expression;
-            set
+            Id = id;
+            Expression = string.Empty;
+            Value = string.Empty;
+        }
+
+        // Встановити вираз або число в клітинку
+        public void Write(string content)
+        {
+            if (string.IsNullOrWhiteSpace(content))
             {
-                if (_expression != value)
-                {
-                    _expression = value;
-                    OnPropertyChanged(nameof(Expression));
-                }
+                Expression = null;
+                Value = null;
+                return;
             }
+
+            Expression = content;
         }
 
-        public string Value
-        {
-            get => _value;
-            set
-            {
-                if (_value != value)
-                {
-                    _value = value;
-                    OnPropertyChanged(nameof(Value));
-                }
-            }
-        }
-
-        public int Row { get; set; }
-        public int Column { get; set; }
-
-        public Cell(int row, int column)
-        {
-            Row = row;
-            Column = column;
-            _expression = string.Empty;
-            _value = string.Empty;
-        }
-
-        public void CalculateValue()
-        {
-        }
-
+        // Обчислити значення клітинки на основі Expression
         public void CalculateValue(Sheet sheet)
         {
-            if (sheet == null) throw new ArgumentNullException(nameof(sheet));
-            string expr = this.Expression ?? string.Empty;
-
-            if (string.IsNullOrWhiteSpace(expr))
+            if (string.IsNullOrWhiteSpace(Expression))
             {
-                this.Value = string.Empty;
+                Value = string.Empty;
                 return;
             }
 
-            if (!expr.StartsWith("="))
+            if (!Expression.StartsWith("="))
             {
-                this.Value = expr;
+                Value = Expression;
                 return;
             }
 
-            string formula = expr.Substring(1);
+            string formula = Expression.Substring(1);
 
             try
             {
-                var calculator = new Pexel.ExpressionLogic.ExpressionCalculator(sheet);
+                var calculator = new ExpressionCalculator(sheet);
                 double result = calculator.Evaluate(formula);
-                this.Value = result.ToString(System.Globalization.CultureInfo.InvariantCulture);
+                Value = result.ToString(System.Globalization.CultureInfo.InvariantCulture);
             }
             catch (Exception ex)
             {
-                this.Value = "#ERR: " + ex.Message;
+                Value = "#ERR: " + ex.Message;
             }
+        }
+
+        // Показати значення під час редагування
+        public string ShowFocused()
+        {
+            return Expression ?? "";
+        }
+
+        // Показати значення після редагування
+        public string ShowUnfocused()
+        {
+            return Value ?? "";
         }
     }
 }

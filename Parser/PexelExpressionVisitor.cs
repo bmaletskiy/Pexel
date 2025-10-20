@@ -51,17 +51,9 @@ namespace Pexel.ExpressionLogic
                         try
                         {
                             _visited.Add(key);
-                            var input = new AntlrInputStream(targetCell.Expression);
-                            var lexer = new LabCalculatorLexer(input);
-                            lexer.RemoveErrorListeners();
-                            lexer.AddErrorListener(new ThrowExceptionErrorListener());
-                            var tokens = new CommonTokenStream(lexer);
-                            var parser = new LabCalculatorParser(tokens);
-                            parser.RemoveErrorListeners();
-                            parser.AddErrorListener(new ThrowExceptionErrorListener());
-                            var tree = parser.compileUnit();
-                            double val = Visit(tree);
-                            targetCell.Value = val.ToString();
+                            var calculator = new ExpressionCalculator(_sheet);
+                            double val = calculator.Evaluate(targetCell.Expression);
+                            targetCell.Value = val.ToString(System.Globalization.CultureInfo.InvariantCulture);
                         }
                         catch (Exception ex)
                         {

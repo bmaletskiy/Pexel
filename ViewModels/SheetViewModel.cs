@@ -1,56 +1,55 @@
 using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
-using System.Threading.Tasks;
+using System.Text.Json;
 using System.Windows.Input;
 using Pexel.models;
-using System.ComponentModel;
-using System.Runtime.CompilerServices;
-using System.Text.Json;
-using System.IO;
 
 namespace Pexel.ViewModels
-
 {
-    public class SheetViewModel : INotifyPropertyChanged
+    public class SheetViewModel
     {
-        public event PropertyChangedEventHandler? PropertyChanged;
-        private void OnPropertyChanged([CallerMemberName] string? name = null) => PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(name));
-
         public Sheet CurrentSheet { get; set; }
-        public System.Collections.ObjectModel.ObservableCollection<string> ColumnHeaders { get; set; } = new System.Collections.ObjectModel.ObservableCollection<string>();
-        public System.Collections.ObjectModel.ObservableCollection<string> RowHeaders { get; set; } = new System.Collections.ObjectModel.ObservableCollection<string>();
+
         public ICommand AddRowCommand { get; }
         public ICommand AddColumnCommand { get; }
 
-        private void AddNewRow()
+        public SheetViewModel()
+        {
+            CurrentSheet = new Sheet(5, 5);
+            AddRowCommand = new Command(AddRow);
+            AddColumnCommand = new Command(AddColumn);
+        }
+
+        private void AddRow()
         {
             CurrentSheet.AddRow();
-            UpdateHeaders();
-            RecalculateAll(); 
         }
 
         private void AddColumn()
         {
             CurrentSheet.AddColumn();
-            UpdateHeaders();
-            RecalculateAll(); 
         }
 
-        public SheetViewModel()
+        public void DeleteRow()
         {
-            CurrentSheet = new Sheet(5, 5);
-            AddRowCommand = new Command(AddNewRow);
-            AddColumnCommand = new Command(AddColumn);
-            UpdateHeaders();
+            CurrentSheet.RemoveRow();
         }
+
+        public void DeleteColumn()
+        {
+            CurrentSheet.RemoveColumn();
+        }
+
+
         public void RecalculateAll()
         {
             for (int r = 0; r < CurrentSheet.RowCount; r++)
             {
                 for (int c = 0; c < CurrentSheet.ColumnCount; c++)
                 {
-                    CurrentSheet.Cells[r][c].CalculateValue(CurrentSheet); 
+                    CurrentSheet.Cells[r][c].CalculateValue(CurrentSheet);
                 }
             }
         }
@@ -63,10 +62,12 @@ namespace Pexel.ViewModels
                 for (int c = 0; c < CurrentSheet.ColumnCount; c++)
                 {
                     var cell = CurrentSheet.Cells[r][c];
-                    if (!string.IsNullOrEmpty(cell.Expression))
-                        simple.Add(new { Row = r, Col = c, Expression = cell.Expression });
+                    string content = cell.ShowFocused();
+                    if (!string.IsNullOrEmpty(content))
+                        simple.Add(new { Row = r, Col = c, Content = content });
                 }
             }
+
             var json = JsonSerializer.Serialize(simple);
             File.WriteAllText(path, json);
         }
@@ -74,72 +75,28 @@ namespace Pexel.ViewModels
         public void LoadFromFile(string path)
         {
             if (!File.Exists(path)) return;
+
             var json = File.ReadAllText(path);
             var items = JsonSerializer.Deserialize<List<SimpleCell>>(json);
             if (items == null) return;
 
-            if (items.Count == 0)
-            {
+            int maxRow = items.Count > 0 ? items.Max(i => i.Row) + 1 : CurrentSheet.RowCount;
+            int maxCol = items.Count > 0 ? items.Max(i => i.Col) + 1 : CurrentSheet.ColumnCount;
 
-                UpdateHeaders();
-                RecalculateAll();
-                return;
-            }
+            while (CurrentSheet.RowCount < maxRow) CurrentSheet.AddRow();
+            while (CurrentSheet.ColumnCount < maxCol) CurrentSheet.AddColumn();
 
-            int maxRow = items.Max(i => i.Row) + 1;
-            int maxCol = items.Max(i => i.Col) + 1;
-            
-            if (maxRow > CurrentSheet.RowCount)
-            {
-                while (CurrentSheet.RowCount < maxRow) CurrentSheet.AddRow();
-            }
-            if (maxCol > CurrentSheet.ColumnCount)
-            {
-                while (CurrentSheet.ColumnCount < maxCol) CurrentSheet.AddColumn();
-            }
-            
             foreach (var sc in items)
             {
-                CurrentSheet.Cells[sc.Row][sc.Col].Expression = sc.Expression;
+                CurrentSheet.Cells[sc.Row][sc.Col].Write(sc.Content);
             }
-            
-            UpdateHeaders();
-            RecalculateAll(); 
         }
 
-        public void UpdateHeaders()
+        private class SimpleCell
         {
-            // Update column headers (ObservableCollection will notify UI)
-            ColumnHeaders.Clear();
-            int cols = CurrentSheet.ColumnCount;
-            for (int i = 0; i < cols; i++)
-            {
-                ColumnHeaders.Add(GetColumnName(i));
-            }
-
-            // Update row headers
-            RowHeaders.Clear();
-            int rows = CurrentSheet.RowCount;
-            for (int r = 0; r < rows; r++)
-            {
-                RowHeaders.Add((r + 1).ToString());
-            }
+            public int Row { get; set; }
+            public int Col { get; set; }
+            public string Content { get; set; } = string.Empty;
         }
-
-        private static string GetColumnName(int index)
-        {
-            // 0 -> A, 25 -> Z, 26 -> AA
-            var s = string.Empty;
-            int col = index + 1;
-            while (col > 0)
-            {
-                int rem = (col - 1) % 26;
-                s = (char)('A' + rem) + s;
-                col = (col - 1) / 26;
-            }
-            return s;
-        }
-
-        private class SimpleCell { public int Row { get; set; } public int Col { get; set; } public string Expression { get; set; } = string.Empty; }
     }
 }

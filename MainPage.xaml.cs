@@ -4,7 +4,6 @@ using Microsoft.Maui.Controls;
 using Microsoft.Maui.Graphics;
 using Pexel.ViewModels;
 using Pexel.models;
-using PCell = Pexel.models.Cell;
 using Microsoft.Maui.Storage;
 
 namespace Pexel;
@@ -13,7 +12,6 @@ public partial class MainPage : ContentPage
 {
     private SheetViewModel _viewModel;
 
-    // Початкові розміри клітинок
     private const int CellWidth = 120;
     private const int CellHeight = 50;
 
@@ -24,14 +22,10 @@ public partial class MainPage : ContentPage
         _viewModel = new SheetViewModel();
         BindingContext = _viewModel;
 
-        // Підготовка заголовків та обчислень
-        _viewModel.UpdateHeaders();
         _viewModel.RecalculateAll();
-
         BuildGridUI();
     }
 
-    // Побудова таблиці у Grid
     private void BuildGridUI()
     {
         var sheet = _viewModel.CurrentSheet;
@@ -55,7 +49,7 @@ public partial class MainPage : ContentPage
         {
             var headerLabel = new Label
             {
-                Text = _viewModel.ColumnHeaders[c],
+                Text = GetColumnName(c),
                 HorizontalTextAlignment = TextAlignment.Center,
                 VerticalTextAlignment = TextAlignment.Center,
                 TextColor = Colors.White
@@ -80,7 +74,6 @@ public partial class MainPage : ContentPage
             {
                 var cell = sheet.Cells[r][c];
 
-                // Entry для редагування клітинки
                 var entry = new Entry
                 {
                     HorizontalOptions = LayoutOptions.Fill,
@@ -90,10 +83,7 @@ public partial class MainPage : ContentPage
                     VerticalTextAlignment = TextAlignment.Center,
                     Margin = new Thickness(0)
                 };
-                entry.BindingContext = cell;
-                entry.SetBinding(Entry.TextProperty, new Binding(nameof(PCell.Expression), mode: BindingMode.TwoWay));
 
-                // Label для відображення обчисленого значення
                 var valueLabel = new Label
                 {
                     HorizontalOptions = LayoutOptions.Fill,
@@ -101,105 +91,117 @@ public partial class MainPage : ContentPage
                     HorizontalTextAlignment = TextAlignment.Center,
                     VerticalTextAlignment = TextAlignment.Center,
                     LineBreakMode = LineBreakMode.NoWrap,
-                    Margin = new Thickness(0)
+                    Margin = new Thickness(0),
+                    Text = cell.ShowUnfocused()
                 };
-                valueLabel.BindingContext = cell;
-                valueLabel.SetBinding(Label.TextProperty, new Binding(nameof(PCell.Value)));
 
-                // Grid overlay для перемикання між Label і Entry
                 var overlay = new Grid();
                 overlay.Add(valueLabel);
                 overlay.Add(entry);
 
-                // Подія натискання на клітинку для редагування
+                // Подія натискання для редагування
                 var tap = new TapGestureRecognizer();
                 tap.Tapped += (s, ea) =>
                 {
                     valueLabel.IsVisible = false;
                     entry.IsVisible = true;
+                    entry.Text = cell.ShowFocused();
                     entry.Focus();
                 };
                 overlay.GestureRecognizers.Add(tap);
 
-                // Подія виходу з Entry або завершення редагування
+                // Завершення редагування
                 entry.Unfocused += (s, ea) =>
                 {
-                    if (entry.BindingContext is PCell ccell)
-                        ccell.CalculateValue(_viewModel.CurrentSheet);
+                    cell.Write(entry.Text);
+                    cell.CalculateValue(_viewModel.CurrentSheet);
 
                     entry.IsVisible = false;
                     valueLabel.IsVisible = true;
+                    valueLabel.Text = cell.ShowUnfocused();
                 };
 
                 entry.Completed += (s, ea) =>
                 {
-                    if (entry.BindingContext is PCell ccell)
-                        ccell.CalculateValue(_viewModel.CurrentSheet);
+                    cell.Write(entry.Text);
+                    cell.CalculateValue(_viewModel.CurrentSheet);
 
                     entry.Unfocus();
                 };
 
-                // Додаємо рамку навколо клітинки
                 var border = new Border { Stroke = Colors.LightGray, StrokeThickness = 1, Content = overlay };
                 dataGrid.Add(border, c + 1, r + 1);
             }
         }
     }
 
-    // Додаємо новий рядок
+    private string GetColumnName(int index)
+    {
+        string s = string.Empty;
+        int col = index + 1;
+        while (col > 0)
+        {
+            int rem = (col - 1) % 26;
+            s = (char)('A' + rem) + s;
+            col = (col - 1) / 26;
+        }
+        return s;
+    }
+
     private void AddRow_Clicked(object? sender, EventArgs e)
     {
         _viewModel.CurrentSheet.AddRow();
-        _viewModel.UpdateHeaders();
         _viewModel.RecalculateAll();
         BuildGridUI();
     }
 
-    // Додаємо нову колонку
     private void AddColumn_Clicked(object? sender, EventArgs e)
     {
         _viewModel.CurrentSheet.AddColumn();
-        _viewModel.UpdateHeaders();
         _viewModel.RecalculateAll();
         BuildGridUI();
     }
 
-    // Збереження таблиці у файл
+    private void DeleteRow_Clicked(object sender, EventArgs e)
+    {
+        _viewModel.DeleteRow();
+        _viewModel.RecalculateAll();
+        BuildGridUI();
+    }
+
+    private void DeleteColumn_Clicked(object sender, EventArgs e)
+    {
+        _viewModel.DeleteColumn();
+        _viewModel.RecalculateAll();
+        BuildGridUI();
+    }
+
+
     private async void OnSaveClicked(object sender, EventArgs e)
     {
-        var vm = BindingContext as SheetViewModel;
-        if (vm == null) return;
         string path = Path.Combine(FileSystem.AppDataDirectory, "sheet.json");
-        vm.SaveToFile(path);
+        _viewModel.SaveToFile(path);
         await DisplayAlert("Збережено", $"Файл збережено до {path}", "OK");
     }
 
-    // Завантаження таблиці з файлу(не реалізовано)
     private async void OnLoadClicked(object sender, EventArgs e)
     {
-        var vm = BindingContext as SheetViewModel;
-        if (vm == null) return;
         string path = Path.Combine(FileSystem.AppDataDirectory, "sheet.json");
-        vm.LoadFromFile(path);
-        vm.UpdateHeaders();
-        vm.RecalculateAll();
+        _viewModel.LoadFromFile(path);
+        _viewModel.RecalculateAll();
         BuildGridUI();
         await DisplayAlert("Завантажено", $"Файл завантажено з {path}", "OK");
     }
 
-    // Інформація про програму
     private async void OnAboutClicked(object sender, EventArgs e)
     {
         await DisplayAlert("Про програму", "Pexel — простий редактор електронних таблиць з підтримкою арифметичних виразів. Інтерфейс українською.", "OK");
     }
 
-    // Вихід з програми
     private async void OnExitClicked(object sender, EventArgs e)
     {
         bool answer = await DisplayAlert("Вихід", "Ви дійсно хочете вийти з програми?", "Так", "Ні");
         if (answer)
-        {
             System.Diagnostics.Process.GetCurrentProcess().CloseMainWindow();
-        }
     }
 }
