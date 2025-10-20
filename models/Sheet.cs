@@ -1,21 +1,22 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Threading.Tasks;
 using System.Collections.ObjectModel; //for ObservableCollection
+using System.Collections.Specialized;
+using System.Numerics;
 
 namespace Pexel.models
 {
     public class Sheet
     {
-        private ObservableCollection<List<Cell>> _cells; // Changed to ObservableCollection for UI binding
-        public ObservableCollection<List<Cell>> Cells => _cells;
+        private ObservableCollection<ObservableCollection<Cell>> _cells; 
+        public ObservableCollection<ObservableCollection<Cell>> Cells => _cells;
         public Sheet(int initialRows, int initialColumns)
         {
-            _cells = new ObservableCollection<List<Cell>>();
+            _cells = new ObservableCollection<ObservableCollection<Cell>>();
             for (int i = 0; i < initialRows; i++)
             {
-                var newRow = new List<Cell>();
+                var newRow = new ObservableCollection<Cell>();
                 for (int j = 0; j < initialColumns; j++)
                 {
                     newRow.Add(new Cell(i, j));
@@ -29,7 +30,7 @@ namespace Pexel.models
         public void AddRow()
         {
             int newRowIdx = this.RowCount;
-            var newRow = new List<Cell>();
+            var newRow = new ObservableCollection<Cell>();
             int width = this.ColumnCount;
             for (int i = 0; i < width; i++)
             {
@@ -41,12 +42,12 @@ namespace Pexel.models
         public void AddColumn()
         {
             int newColIdx = this.ColumnCount;
-            int length = this.RowCount;
-            var newRow = new List<Cell>();
-            for (int i = 0; i < length; i++)
+            for(int i = 0; i < this.RowCount; i++)
             {
-               newRow.Add(new Cell(i, newColIdx));
+                _cells[i].Add(new Cell(i, newColIdx));
             }
         }
+
+
     }
 }

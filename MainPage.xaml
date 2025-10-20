@@ -1,36 +1,38 @@
-<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="Pexel.MainPage">
+             x:Class="Pexel.MainPage"
+             x:Name="Root"
+             Title="Pexel — Електронна Таблиця"
+             BackgroundColor="#1e1e1e">
 
-    <Grid RowDefinitions="Auto, *, Auto">
-        <HorizontalStackLayout Grid.Row="0" Margin="10">
-            <Button Text="Додати рядок" Command="{Binding AddRowCommand}" />
-            <Button Text="Додати стовпчик" Command="{Binding AddColumnCommand}" />
+    <Grid RowDefinitions="Auto, *, Auto" Padding="10">
+        <!-- Панель кнопок -->
+        <HorizontalStackLayout Grid.Row="0" Spacing="8" HorizontalOptions="Center">
+            <Button Text="➕ Додати рядок" Clicked="AddRow_Clicked" Style="{StaticResource ToolbarButton}" />
+            <Button Text="➕ Додати стовпчик" Clicked="AddColumn_Clicked" Style="{StaticResource ToolbarButton}" />
+            <Button Text="💾 Зберегти" Clicked="OnSaveClicked" Style="{StaticResource ToolbarButton}" />
+            <Button Text="📂 Завантажити" Clicked="OnLoadClicked" Style="{StaticResource ToolbarButton}" />
+            <Button Text="ℹ️ Про програму" Clicked="OnAboutClicked" Style="{StaticResource ToolbarButton}" />
+            <Button Text="🚪 Вийти" Clicked="OnExitClicked" Style="{StaticResource ToolbarButton}" />
         </HorizontalStackLayout>
-        
-        <CollectionView Grid.Row="1" ItemsSource="{Binding CurrentSheet.Cells}">
-            <CollectionView.ItemTemplate>
-                <DataTemplate>
-                    <CollectionView ItemsSource="{Binding .}" ItemsLayout="HorizontalList">
-                        <CollectionView.ItemTemplate>
-                            <DataTemplate>
-                                <Border Stroke="LightGray" StrokeThickness="1" WidthRequest="100" HeightRequest="40">
-                                    <Entry Text="{Binding Expression}" Margin="5" VerticalOptions="Center" HorizontalOptions="Center"/>                                       
-                                </Border>
-                            </DataTemplate>
-                        </CollectionView.ItemTemplate>
-                    </CollectionView>
-                </DataTemplate>
-            </CollectionView.ItemTemplate>
-        </CollectionView>                                                                                                           
 
-        <HorizontalStackLayout Grid.Row="2" Margin="10">
-            <Label Text="Формула:" VerticalOptions="Center"/>
-            <Entry Placeholder="=A1+B2" HorizontalOptions="FillAndExpand"/>
-            <Switch IsToggled="false"/>
-            <Label Text="Значення" VerticalOptions="Center"/>
-        </HorizontalStackLayout>
+        <!-- Таблиця -->
+        <ScrollView Grid.Row="1" Orientation="Both">
+            <Grid x:Name="dataGrid"
+                  BackgroundColor="#252526"
+                  Padding="5"
+                  RowSpacing="1"
+                  ColumnSpacing="1" />
+        </ScrollView>
     </Grid>
 
+    <ContentPage.Resources>
+        <Style x:Key="ToolbarButton" TargetType="Button">
+            <Setter Property="BackgroundColor" Value="#007ACC" />
+            <Setter Property="TextColor" Value="White" />
+            <Setter Property="CornerRadius" Value="8" />
+            <Setter Property="Padding" Value="10,6" />
+            <Setter Property="FontAttributes" Value="Bold" />
+        </Style>
+    </ContentPage.Resources>
 </ContentPage>

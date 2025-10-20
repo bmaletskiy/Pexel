@@ -1,80 +1,80 @@
-@string/appbar_scrolling_view_behavior;D:\.NET Lab1\Pexel\obj\Debug\net9.0-android\lp\158\jl\res\layout\fragment_backstack.xml
-@string/appbar_scrolling_view_behavior;D:\.NET Lab1\Pexel\obj\Debug\net9.0-android\lp\158\jl\res\layout\navigationlayout.xml
+@string/appbar_scrolling_view_behavior;D:\Lab1\Pexel\obj\Debug\net9.0-android\lp\158\jl\res\layout\fragment_backstack.xml
+@string/appbar_scrolling_view_behavior;D:\Lab1\Pexel\obj\Debug\net9.0-android\lp\158\jl\res\layout\navigationlayout.xml
 adaptive-icon;obj\Debug\net9.0-android\resizetizer\r\mipmap-anydpi-v26\appicon_round.xml
 adaptive-icon;obj\Debug\net9.0-android\resizetizer\r\mipmap-anydpi-v26\appicon.xml
-alpha;D:\.NET Lab1\Pexel\obj\Debug\net9.0-android\lp\156\jl\res\anim\enterfromleft.xml
-alpha;D:\.NET Lab1\Pexel\obj\Debug\net9.0-android\lp\156\jl\res\anim\exittoleft.xml
-alpha;D:\.NET Lab1\Pexel\obj\Debug\net9.0-android\lp\158\jl\res\anim\nav_default_enter_anim.xml
-alpha;D:\.NET Lab1\Pexel\obj\Debug\net9.0-android\lp\158\jl\res\anim\nav_default_exit_anim.xml
-alpha;D:\.NET Lab1\Pexel\obj\Debug\net9.0-android\lp\158\jl\res\anim\nav_default_pop_enter_anim.xml
-alpha;D:\.NET Lab1\Pexel\obj\Debug\net9.0-android\lp\158\jl\res\anim\nav_default_pop_exit_anim.xml
-androidx.coordinatorlayout.widget.CoordinatorLayout;D:\.NET Lab1\Pexel\obj\Debug\net9.0-android\lp\156\jl\res\layout\shellcontent.xml
-androidx.coordinatorlayout.widget.CoordinatorLayout;D:\.NET Lab1\Pexel\obj\Debug\net9.0-android\lp\158\jl\res\layout\navigationlayout.xml
-androidx.drawerlayout.widget.DrawerLayout;D:\.NET Lab1\Pexel\obj\Debug\net9.0-android\lp\158\jl\res\layout\drawer_layout.xml
-androidx.fragment.app.FragmentContainerView;D:\.NET Lab1\Pexel\obj\Debug\net9.0-android\lp\158\jl\res\layout\fragment_backstack.xml
-androidx.fragment.app.FragmentContainerView;D:\.NET Lab1\Pexel\obj\Debug\net9.0-android\lp\158\jl\res\layout\navigationlayout.xml
-attr;D:\.NET Lab1\Pexel\obj\Debug\net9.0-android\lp\158\jl\res\values\attr.xml
+alpha;D:\Lab1\Pexel\obj\Debug\net9.0-android\lp\156\jl\res\anim\enterfromleft.xml
+alpha;D:\Lab1\Pexel\obj\Debug\net9.0-android\lp\156\jl\res\anim\exittoleft.xml
+alpha;D:\Lab1\Pexel\obj\Debug\net9.0-android\lp\158\jl\res\anim\nav_default_enter_anim.xml
+alpha;D:\Lab1\Pexel\obj\Debug\net9.0-android\lp\158\jl\res\anim\nav_default_exit_anim.xml
+alpha;D:\Lab1\Pexel\obj\Debug\net9.0-android\lp\158\jl\res\anim\nav_default_pop_enter_anim.xml
+alpha;D:\Lab1\Pexel\obj\Debug\net9.0-android\lp\158\jl\res\anim\nav_default_pop_exit_anim.xml
+androidx.coordinatorlayout.widget.CoordinatorLayout;D:\Lab1\Pexel\obj\Debug\net9.0-android\lp\156\jl\res\layout\shellcontent.xml
+androidx.coordinatorlayout.widget.CoordinatorLayout;D:\Lab1\Pexel\obj\Debug\net9.0-android\lp\158\jl\res\layout\navigationlayout.xml
+androidx.drawerlayout.widget.DrawerLayout;D:\Lab1\Pexel\obj\Debug\net9.0-android\lp\158\jl\res\layout\drawer_layout.xml
+androidx.fragment.app.FragmentContainerView;D:\Lab1\Pexel\obj\Debug\net9.0-android\lp\158\jl\res\layout\fragment_backstack.xml
+androidx.fragment.app.FragmentContainerView;D:\Lab1\Pexel\obj\Debug\net9.0-android\lp\158\jl\res\layout\navigationlayout.xml
+attr;D:\Lab1\Pexel\obj\Debug\net9.0-android\lp\158\jl\res\values\attr.xml
 background;obj\Debug\net9.0-android\resizetizer\r\mipmap-anydpi-v26\appicon_round.xml
 background;obj\Debug\net9.0-android\resizetizer\r\mipmap-anydpi-v26\appicon.xml
 bitmap;obj\Debug\net9.0-android\resizetizer\sp\drawable-v31\maui_splash_image.xml
 bitmap;obj\Debug\net9.0-android\resizetizer\sp\drawable\maui_splash_image.xml
-cache-path;D:\.NET Lab1\Pexel\obj\Debug\net9.0-android\lp\159\jl\res\xml\microsoft_maui_essentials_fileprovider_file_paths.xml
-color;D:\.NET Lab1\Pexel\obj\Debug\net9.0-android\lp\158\jl\res\values\colors.xml
+cache-path;D:\Lab1\Pexel\obj\Debug\net9.0-android\lp\159\jl\res\xml\microsoft_maui_essentials_fileprovider_file_paths.xml
+color;D:\Lab1\Pexel\obj\Debug\net9.0-android\lp\158\jl\res\values\colors.xml
 color;obj\Debug\net9.0-android\res\values\colors.xml
 color;obj\Debug\net9.0-android\resizetizer\sp\values\maui_colors.xml
-com.google.android.material.appbar.AppBarLayout;D:\.NET Lab1\Pexel\obj\Debug\net9.0-android\lp\156\jl\res\layout\flyoutcontent.xml
-com.google.android.material.appbar.AppBarLayout;D:\.NET Lab1\Pexel\obj\Debug\net9.0-android\lp\156\jl\res\layout\shellcontent.xml
-com.google.android.material.appbar.AppBarLayout;D:\.NET Lab1\Pexel\obj\Debug\net9.0-android\lp\158\jl\res\layout\navigationlayout.xml
-declare-styleable;D:\.NET Lab1\Pexel\obj\Debug\net9.0-android\lp\158\jl\res\values\attr.xml
-external-cache-path;D:\.NET Lab1\Pexel\obj\Debug\net9.0-android\lp\159\jl\res\xml\microsoft_maui_essentials_fileprovider_file_paths.xml
-external-path;D:\.NET Lab1\Pexel\obj\Debug\net9.0-android\lp\159\jl\res\xml\microsoft_maui_essentials_fileprovider_file_paths.xml
+com.google.android.material.appbar.AppBarLayout;D:\Lab1\Pexel\obj\Debug\net9.0-android\lp\156\jl\res\layout\flyoutcontent.xml
+com.google.android.material.appbar.AppBarLayout;D:\Lab1\Pexel\obj\Debug\net9.0-android\lp\156\jl\res\layout\shellcontent.xml
+com.google.android.material.appbar.AppBarLayout;D:\Lab1\Pexel\obj\Debug\net9.0-android\lp\158\jl\res\layout\navigationlayout.xml
+declare-styleable;D:\Lab1\Pexel\obj\Debug\net9.0-android\lp\158\jl\res\values\attr.xml
+external-cache-path;D:\Lab1\Pexel\obj\Debug\net9.0-android\lp\159\jl\res\xml\microsoft_maui_essentials_fileprovider_file_paths.xml
+external-path;D:\Lab1\Pexel\obj\Debug\net9.0-android\lp\159\jl\res\xml\microsoft_maui_essentials_fileprovider_file_paths.xml
 foreground;obj\Debug\net9.0-android\resizetizer\r\mipmap-anydpi-v26\appicon_round.xml
 foreground;obj\Debug\net9.0-android\resizetizer\r\mipmap-anydpi-v26\appicon.xml
-item;D:\.NET Lab1\Pexel\obj\Debug\net9.0-android\lp\157\jl\res\values\values.xml
-item;D:\.NET Lab1\Pexel\obj\Debug\net9.0-android\lp\158\jl\res\drawable\maui_splash.xml
-item;D:\.NET Lab1\Pexel\obj\Debug\net9.0-android\lp\158\jl\res\values-v35\styles.xml
-item;D:\.NET Lab1\Pexel\obj\Debug\net9.0-android\lp\158\jl\res\values\styles.xml
-item;D:\.NET Lab1\Pexel\obj\Debug\net9.0-android\lp\162\jl\res\values\values.xml
+item;D:\Lab1\Pexel\obj\Debug\net9.0-android\lp\157\jl\res\values\values.xml
+item;D:\Lab1\Pexel\obj\Debug\net9.0-android\lp\158\jl\res\drawable\maui_splash.xml
+item;D:\Lab1\Pexel\obj\Debug\net9.0-android\lp\158\jl\res\values-v35\styles.xml
+item;D:\Lab1\Pexel\obj\Debug\net9.0-android\lp\158\jl\res\values\styles.xml
+item;D:\Lab1\Pexel\obj\Debug\net9.0-android\lp\162\jl\res\values\values.xml
 item;obj\Debug\net9.0-android\resizetizer\sp\drawable-v31\maui_splash_image.xml
 item;obj\Debug\net9.0-android\resizetizer\sp\drawable\maui_splash_image.xml
-layer-list;D:\.NET Lab1\Pexel\obj\Debug\net9.0-android\lp\158\jl\res\drawable\maui_splash_image.xml
-layer-list;D:\.NET Lab1\Pexel\obj\Debug\net9.0-android\lp\158\jl\res\drawable\maui_splash.xml
+layer-list;D:\Lab1\Pexel\obj\Debug\net9.0-android\lp\158\jl\res\drawable\maui_splash_image.xml
+layer-list;D:\Lab1\Pexel\obj\Debug\net9.0-android\lp\158\jl\res\drawable\maui_splash.xml
 layer-list;obj\Debug\net9.0-android\resizetizer\sp\drawable-v31\maui_splash_image.xml
 layer-list;obj\Debug\net9.0-android\resizetizer\sp\drawable\maui_splash_image.xml
-microsoft.maui.controls.platform.compatibility.ShellFlyoutLayout;D:\.NET Lab1\Pexel\obj\Debug\net9.0-android\lp\156\jl\res\layout\flyoutcontent.xml
+microsoft.maui.controls.platform.compatibility.ShellFlyoutLayout;D:\Lab1\Pexel\obj\Debug\net9.0-android\lp\156\jl\res\layout\flyoutcontent.xml
 monochrome;obj\Debug\net9.0-android\resizetizer\r\mipmap-anydpi-v26\appicon_round.xml
 monochrome;obj\Debug\net9.0-android\resizetizer\r\mipmap-anydpi-v26\appicon.xml
-paths;D:\.NET Lab1\Pexel\obj\Debug\net9.0-android\lp\159\jl\res\xml\microsoft_maui_essentials_fileprovider_file_paths.xml
-resources;D:\.NET Lab1\Pexel\obj\Debug\net9.0-android\lp\156\jl\res\values\strings.xml
-resources;D:\.NET Lab1\Pexel\obj\Debug\net9.0-android\lp\157\jl\res\values\values.xml
-resources;D:\.NET Lab1\Pexel\obj\Debug\net9.0-android\lp\158\jl\res\values-v35\styles.xml
-resources;D:\.NET Lab1\Pexel\obj\Debug\net9.0-android\lp\158\jl\res\values\attr.xml
-resources;D:\.NET Lab1\Pexel\obj\Debug\net9.0-android\lp\158\jl\res\values\colors.xml
-resources;D:\.NET Lab1\Pexel\obj\Debug\net9.0-android\lp\158\jl\res\values\styles.xml
-resources;D:\.NET Lab1\Pexel\obj\Debug\net9.0-android\lp\162\jl\res\values\values.xml
+paths;D:\Lab1\Pexel\obj\Debug\net9.0-android\lp\159\jl\res\xml\microsoft_maui_essentials_fileprovider_file_paths.xml
+resources;D:\Lab1\Pexel\obj\Debug\net9.0-android\lp\156\jl\res\values\strings.xml
+resources;D:\Lab1\Pexel\obj\Debug\net9.0-android\lp\157\jl\res\values\values.xml
+resources;D:\Lab1\Pexel\obj\Debug\net9.0-android\lp\158\jl\res\values-v35\styles.xml
+resources;D:\Lab1\Pexel\obj\Debug\net9.0-android\lp\158\jl\res\values\attr.xml
+resources;D:\Lab1\Pexel\obj\Debug\net9.0-android\lp\158\jl\res\values\colors.xml
+resources;D:\Lab1\Pexel\obj\Debug\net9.0-android\lp\158\jl\res\values\styles.xml
+resources;D:\Lab1\Pexel\obj\Debug\net9.0-android\lp\162\jl\res\values\values.xml
 resources;obj\Debug\net9.0-android\res\values\colors.xml
 resources;obj\Debug\net9.0-android\resizetizer\sp\values\maui_colors.xml
-set;D:\.NET Lab1\Pexel\obj\Debug\net9.0-android\lp\156\jl\res\anim\enterfromleft.xml
-set;D:\.NET Lab1\Pexel\obj\Debug\net9.0-android\lp\156\jl\res\anim\enterfromright.xml
-set;D:\.NET Lab1\Pexel\obj\Debug\net9.0-android\lp\156\jl\res\anim\exittoleft.xml
-set;D:\.NET Lab1\Pexel\obj\Debug\net9.0-android\lp\156\jl\res\anim\exittoright.xml
-set;D:\.NET Lab1\Pexel\obj\Debug\net9.0-android\lp\158\jl\res\anim\nav_default_enter_anim.xml
-set;D:\.NET Lab1\Pexel\obj\Debug\net9.0-android\lp\158\jl\res\anim\nav_default_exit_anim.xml
-set;D:\.NET Lab1\Pexel\obj\Debug\net9.0-android\lp\158\jl\res\anim\nav_default_pop_enter_anim.xml
-set;D:\.NET Lab1\Pexel\obj\Debug\net9.0-android\lp\158\jl\res\anim\nav_default_pop_exit_anim.xml
-set;D:\.NET Lab1\Pexel\obj\Debug\net9.0-android\lp\158\jl\res\anim\nav_modal_default_enter_anim.xml
-set;D:\.NET Lab1\Pexel\obj\Debug\net9.0-android\lp\158\jl\res\anim\nav_modal_default_exit_anim.xml
-string;D:\.NET Lab1\Pexel\obj\Debug\net9.0-android\lp\156\jl\res\values\strings.xml
-string;D:\.NET Lab1\Pexel\obj\Debug\net9.0-android\lp\157\jl\res\values\values.xml
-style;D:\.NET Lab1\Pexel\obj\Debug\net9.0-android\lp\158\jl\res\values-v35\styles.xml
-style;D:\.NET Lab1\Pexel\obj\Debug\net9.0-android\lp\158\jl\res\values\styles.xml
-translate;D:\.NET Lab1\Pexel\obj\Debug\net9.0-android\lp\156\jl\res\anim\enterfromleft.xml
-translate;D:\.NET Lab1\Pexel\obj\Debug\net9.0-android\lp\156\jl\res\anim\enterfromright.xml
-translate;D:\.NET Lab1\Pexel\obj\Debug\net9.0-android\lp\156\jl\res\anim\exittoleft.xml
-translate;D:\.NET Lab1\Pexel\obj\Debug\net9.0-android\lp\156\jl\res\anim\exittoright.xml
-translate;D:\.NET Lab1\Pexel\obj\Debug\net9.0-android\lp\158\jl\res\anim\nav_default_enter_anim.xml
-translate;D:\.NET Lab1\Pexel\obj\Debug\net9.0-android\lp\158\jl\res\anim\nav_default_exit_anim.xml
-translate;D:\.NET Lab1\Pexel\obj\Debug\net9.0-android\lp\158\jl\res\anim\nav_default_pop_enter_anim.xml
-translate;D:\.NET Lab1\Pexel\obj\Debug\net9.0-android\lp\158\jl\res\anim\nav_default_pop_exit_anim.xml
-translate;D:\.NET Lab1\Pexel\obj\Debug\net9.0-android\lp\158\jl\res\anim\nav_modal_default_enter_anim.xml
-translate;D:\.NET Lab1\Pexel\obj\Debug\net9.0-android\lp\158\jl\res\anim\nav_modal_default_exit_anim.xml
+set;D:\Lab1\Pexel\obj\Debug\net9.0-android\lp\156\jl\res\anim\enterfromleft.xml
+set;D:\Lab1\Pexel\obj\Debug\net9.0-android\lp\156\jl\res\anim\enterfromright.xml
+set;D:\Lab1\Pexel\obj\Debug\net9.0-android\lp\156\jl\res\anim\exittoleft.xml
+set;D:\Lab1\Pexel\obj\Debug\net9.0-android\lp\156\jl\res\anim\exittoright.xml
+set;D:\Lab1\Pexel\obj\Debug\net9.0-android\lp\158\jl\res\anim\nav_default_enter_anim.xml
+set;D:\Lab1\Pexel\obj\Debug\net9.0-android\lp\158\jl\res\anim\nav_default_exit_anim.xml
+set;D:\Lab1\Pexel\obj\Debug\net9.0-android\lp\158\jl\res\anim\nav_default_pop_enter_anim.xml
+set;D:\Lab1\Pexel\obj\Debug\net9.0-android\lp\158\jl\res\anim\nav_default_pop_exit_anim.xml
+set;D:\Lab1\Pexel\obj\Debug\net9.0-android\lp\158\jl\res\anim\nav_modal_default_enter_anim.xml
+set;D:\Lab1\Pexel\obj\Debug\net9.0-android\lp\158\jl\res\anim\nav_modal_default_exit_anim.xml
+string;D:\Lab1\Pexel\obj\Debug\net9.0-android\lp\156\jl\res\values\strings.xml
+string;D:\Lab1\Pexel\obj\Debug\net9.0-android\lp\157\jl\res\values\values.xml
+style;D:\Lab1\Pexel\obj\Debug\net9.0-android\lp\158\jl\res\values-v35\styles.xml
+style;D:\Lab1\Pexel\obj\Debug\net9.0-android\lp\158\jl\res\values\styles.xml
+translate;D:\Lab1\Pexel\obj\Debug\net9.0-android\lp\156\jl\res\anim\enterfromleft.xml
+translate;D:\Lab1\Pexel\obj\Debug\net9.0-android\lp\156\jl\res\anim\enterfromright.xml
+translate;D:\Lab1\Pexel\obj\Debug\net9.0-android\lp\156\jl\res\anim\exittoleft.xml
+translate;D:\Lab1\Pexel\obj\Debug\net9.0-android\lp\156\jl\res\anim\exittoright.xml
+translate;D:\Lab1\Pexel\obj\Debug\net9.0-android\lp\158\jl\res\anim\nav_default_enter_anim.xml
+translate;D:\Lab1\Pexel\obj\Debug\net9.0-android\lp\158\jl\res\anim\nav_default_exit_anim.xml
+translate;D:\Lab1\Pexel\obj\Debug\net9.0-android\lp\158\jl\res\anim\nav_default_pop_enter_anim.xml
+translate;D:\Lab1\Pexel\obj\Debug\net9.0-android\lp\158\jl\res\anim\nav_default_pop_exit_anim.xml
+translate;D:\Lab1\Pexel\obj\Debug\net9.0-android\lp\158\jl\res\anim\nav_modal_default_enter_anim.xml
+translate;D:\Lab1\Pexel\obj\Debug\net9.0-android\lp\158\jl\res\anim\nav_modal_default_exit_anim.xml

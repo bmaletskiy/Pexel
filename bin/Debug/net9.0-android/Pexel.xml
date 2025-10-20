@@ -10,5 +10,218 @@
             Exposes the Android Resource designer assembly into the project Namespace.
             </summary>
         </member>
+        <member name="T:LabCalculatorBaseVisitor`1">
+            <summary>
+            This class provides an empty implementation of <see cref="T:ILabCalculatorVisitor`1"/>,
+            which can be extended to create a visitor which only needs to handle a subset
+            of the available methods.
+            </summary>
+            <typeparam name="Result">The return type of the visit operation.</typeparam>
+        </member>
+        <member name="M:LabCalculatorBaseVisitor`1.VisitCompileUnit(LabCalculatorParser.CompileUnitContext)">
+            <summary>
+            Visit a parse tree produced by <see cref="M:LabCalculatorParser.compileUnit"/>.
+            <para>
+            The default implementation returns the result of calling <see cref="M:Antlr4.Runtime.Tree.AbstractParseTreeVisitor`1.VisitChildren(Antlr4.Runtime.Tree.IRuleNode)"/>
+            on <paramref name="context"/>.
+            </para>
+            </summary>
+            <param name="context">The parse tree.</param>
+            <return>The visitor result.</return>
+        </member>
+        <member name="M:LabCalculatorBaseVisitor`1.VisitMultiplicativeExpr(LabCalculatorParser.MultiplicativeExprContext)">
+            <summary>
+            Visit a parse tree produced by the <c>MultiplicativeExpr</c>
+            labeled alternative in <see cref="M:LabCalculatorParser.expression"/>.
+            <para>
+            The default implementation returns the result of calling <see cref="M:Antlr4.Runtime.Tree.AbstractParseTreeVisitor`1.VisitChildren(Antlr4.Runtime.Tree.IRuleNode)"/>
+            on <paramref name="context"/>.
+            </para>
+            </summary>
+            <param name="context">The parse tree.</param>
+            <return>The visitor result.</return>
+        </member>
+        <member name="M:LabCalculatorBaseVisitor`1.VisitExponentialExpr(LabCalculatorParser.ExponentialExprContext)">
+            <summary>
+            Visit a parse tree produced by the <c>ExponentialExpr</c>
+            labeled alternative in <see cref="M:LabCalculatorParser.expression"/>.
+            <para>
+            The default implementation returns the result of calling <see cref="M:Antlr4.Runtime.Tree.AbstractParseTreeVisitor`1.VisitChildren(Antlr4.Runtime.Tree.IRuleNode)"/>
+            on <paramref name="context"/>.
+            </para>
+            </summary>
+            <param name="context">The parse tree.</param>
+            <return>The visitor result.</return>
+        </member>
+        <member name="M:LabCalculatorBaseVisitor`1.VisitAdditiveExpr(LabCalculatorParser.AdditiveExprContext)">
+            <summary>
+            Visit a parse tree produced by the <c>AdditiveExpr</c>
+            labeled alternative in <see cref="M:LabCalculatorParser.expression"/>.
+            <para>
+            The default implementation returns the result of calling <see cref="M:Antlr4.Runtime.Tree.AbstractParseTreeVisitor`1.VisitChildren(Antlr4.Runtime.Tree.IRuleNode)"/>
+            on <paramref name="context"/>.
+            </para>
+            </summary>
+            <param name="context">The parse tree.</param>
+            <return>The visitor result.</return>
+        </member>
+        <member name="M:LabCalculatorBaseVisitor`1.VisitNumberExpr(LabCalculatorParser.NumberExprContext)">
+            <summary>
+            Visit a parse tree produced by the <c>NumberExpr</c>
+            labeled alternative in <see cref="M:LabCalculatorParser.expression"/>.
+            <para>
+            The default implementation returns the result of calling <see cref="M:Antlr4.Runtime.Tree.AbstractParseTreeVisitor`1.VisitChildren(Antlr4.Runtime.Tree.IRuleNode)"/>
+            on <paramref name="context"/>.
+            </para>
+            </summary>
+            <param name="context">The parse tree.</param>
+            <return>The visitor result.</return>
+        </member>
+        <member name="M:LabCalculatorBaseVisitor`1.VisitComparisonExpr(LabCalculatorParser.ComparisonExprContext)">
+            <summary>
+            Visit a parse tree produced by the <c>ComparisonExpr</c>
+            labeled alternative in <see cref="M:LabCalculatorParser.expression"/>.
+            <para>
+            The default implementation returns the result of calling <see cref="M:Antlr4.Runtime.Tree.AbstractParseTreeVisitor`1.VisitChildren(Antlr4.Runtime.Tree.IRuleNode)"/>
+            on <paramref name="context"/>.
+            </para>
+            </summary>
+            <param name="context">The parse tree.</param>
+            <return>The visitor result.</return>
+        </member>
+        <member name="M:LabCalculatorBaseVisitor`1.VisitIdentifierExpr(LabCalculatorParser.IdentifierExprContext)">
+            <summary>
+            Visit a parse tree produced by the <c>IdentifierExpr</c>
+            labeled alternative in <see cref="M:LabCalculatorParser.expression"/>.
+            <para>
+            The default implementation returns the result of calling <see cref="M:Antlr4.Runtime.Tree.AbstractParseTreeVisitor`1.VisitChildren(Antlr4.Runtime.Tree.IRuleNode)"/>
+            on <paramref name="context"/>.
+            </para>
+            </summary>
+            <param name="context">The parse tree.</param>
+            <return>The visitor result.</return>
+        </member>
+        <member name="M:LabCalculatorBaseVisitor`1.VisitUnaryPlusExpr(LabCalculatorParser.UnaryPlusExprContext)">
+            <summary>
+            Visit a parse tree produced by the <c>UnaryPlusExpr</c>
+            labeled alternative in <see cref="M:LabCalculatorParser.expression"/>.
+            <para>
+            The default implementation returns the result of calling <see cref="M:Antlr4.Runtime.Tree.AbstractParseTreeVisitor`1.VisitChildren(Antlr4.Runtime.Tree.IRuleNode)"/>
+            on <paramref name="context"/>.
+            </para>
+            </summary>
+            <param name="context">The parse tree.</param>
+            <return>The visitor result.</return>
+        </member>
+        <member name="M:LabCalculatorBaseVisitor`1.VisitParenthesizedExpr(LabCalculatorParser.ParenthesizedExprContext)">
+            <summary>
+            Visit a parse tree produced by the <c>ParenthesizedExpr</c>
+            labeled alternative in <see cref="M:LabCalculatorParser.expression"/>.
+            <para>
+            The default implementation returns the result of calling <see cref="M:Antlr4.Runtime.Tree.AbstractParseTreeVisitor`1.VisitChildren(Antlr4.Runtime.Tree.IRuleNode)"/>
+            on <paramref name="context"/>.
+            </para>
+            </summary>
+            <param name="context">The parse tree.</param>
+            <return>The visitor result.</return>
+        </member>
+        <member name="M:LabCalculatorBaseVisitor`1.VisitUnaryMinusExpr(LabCalculatorParser.UnaryMinusExprContext)">
+            <summary>
+            Visit a parse tree produced by the <c>UnaryMinusExpr</c>
+            labeled alternative in <see cref="M:LabCalculatorParser.expression"/>.
+            <para>
+            The default implementation returns the result of calling <see cref="M:Antlr4.Runtime.Tree.AbstractParseTreeVisitor`1.VisitChildren(Antlr4.Runtime.Tree.IRuleNode)"/>
+            on <paramref name="context"/>.
+            </para>
+            </summary>
+            <param name="context">The parse tree.</param>
+            <return>The visitor result.</return>
+        </member>
+        <member name="T:ILabCalculatorVisitor`1">
+            <summary>
+            This interface defines a complete generic visitor for a parse tree produced
+            by <see cref="T:LabCalculatorParser"/>.
+            </summary>
+            <typeparam name="Result">The return type of the visit operation.</typeparam>
+        </member>
+        <member name="M:ILabCalculatorVisitor`1.VisitCompileUnit(LabCalculatorParser.CompileUnitContext)">
+            <summary>
+            Visit a parse tree produced by <see cref="M:LabCalculatorParser.compileUnit"/>.
+            </summary>
+            <param name="context">The parse tree.</param>
+            <return>The visitor result.</return>
+        </member>
+        <member name="M:ILabCalculatorVisitor`1.VisitMultiplicativeExpr(LabCalculatorParser.MultiplicativeExprContext)">
+            <summary>
+            Visit a parse tree produced by the <c>MultiplicativeExpr</c>
+            labeled alternative in <see cref="M:LabCalculatorParser.expression"/>.
+            </summary>
+            <param name="context">The parse tree.</param>
+            <return>The visitor result.</return>
+        </member>
+        <member name="M:ILabCalculatorVisitor`1.VisitExponentialExpr(LabCalculatorParser.ExponentialExprContext)">
+            <summary>
+            Visit a parse tree produced by the <c>ExponentialExpr</c>
+            labeled alternative in <see cref="M:LabCalculatorParser.expression"/>.
+            </summary>
+            <param name="context">The parse tree.</param>
+            <return>The visitor result.</return>
+        </member>
+        <member name="M:ILabCalculatorVisitor`1.VisitAdditiveExpr(LabCalculatorParser.AdditiveExprContext)">
+            <summary>
+            Visit a parse tree produced by the <c>AdditiveExpr</c>
+            labeled alternative in <see cref="M:LabCalculatorParser.expression"/>.
+            </summary>
+            <param name="context">The parse tree.</param>
+            <return>The visitor result.</return>
+        </member>
+        <member name="M:ILabCalculatorVisitor`1.VisitNumberExpr(LabCalculatorParser.NumberExprContext)">
+            <summary>
+            Visit a parse tree produced by the <c>NumberExpr</c>
+            labeled alternative in <see cref="M:LabCalculatorParser.expression"/>.
+            </summary>
+            <param name="context">The parse tree.</param>
+            <return>The visitor result.</return>
+        </member>
+        <member name="M:ILabCalculatorVisitor`1.VisitComparisonExpr(LabCalculatorParser.ComparisonExprContext)">
+            <summary>
+            Visit a parse tree produced by the <c>ComparisonExpr</c>
+            labeled alternative in <see cref="M:LabCalculatorParser.expression"/>.
+            </summary>
+            <param name="context">The parse tree.</param>
+            <return>The visitor result.</return>
+        </member>
+        <member name="M:ILabCalculatorVisitor`1.VisitIdentifierExpr(LabCalculatorParser.IdentifierExprContext)">
+            <summary>
+            Visit a parse tree produced by the <c>IdentifierExpr</c>
+            labeled alternative in <see cref="M:LabCalculatorParser.expression"/>.
+            </summary>
+            <param name="context">The parse tree.</param>
+            <return>The visitor result.</return>
+        </member>
+        <member name="M:ILabCalculatorVisitor`1.VisitUnaryPlusExpr(LabCalculatorParser.UnaryPlusExprContext)">
+            <summary>
+            Visit a parse tree produced by the <c>UnaryPlusExpr</c>
+            labeled alternative in <see cref="M:LabCalculatorParser.expression"/>.
+            </summary>
+            <param name="context">The parse tree.</param>
+            <return>The visitor result.</return>
+        </member>
+        <member name="M:ILabCalculatorVisitor`1.VisitParenthesizedExpr(LabCalculatorParser.ParenthesizedExprContext)">
+            <summary>
+            Visit a parse tree produced by the <c>ParenthesizedExpr</c>
+            labeled alternative in <see cref="M:LabCalculatorParser.expression"/>.
+            </summary>
+            <param name="context">The parse tree.</param>
+            <return>The visitor result.</return>
+        </member>
+        <member name="M:ILabCalculatorVisitor`1.VisitUnaryMinusExpr(LabCalculatorParser.UnaryMinusExprContext)">
+            <summary>
+            Visit a parse tree produced by the <c>UnaryMinusExpr</c>
+            labeled alternative in <see cref="M:LabCalculatorParser.expression"/>.
+            </summary>
+            <param name="context">The parse tree.</param>
+            <return>The visitor result.</return>
+        </member>
     </members>
 </doc>

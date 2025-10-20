@@ -1,515 +1,530 @@
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Platforms\Windows\App.xbf
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\AboutAssets.txt
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\splashSplashScreen.scale-100.png
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\splashSplashScreen.scale-125.png
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\splashSplashScreen.scale-150.png
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\splashSplashScreen.scale-200.png
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\splashSplashScreen.scale-400.png
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\OpenSans-Regular.ttf
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\OpenSans-Semibold.ttf
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\appiconLargeTile.scale-400.png
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\appiconLargeTile.scale-200.png
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\appiconLargeTile.scale-150.png
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\appiconLargeTile.scale-125.png
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\appiconLargeTile.scale-100.png
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\appiconWideTile.scale-400.png
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\appiconWideTile.scale-200.png
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\appiconWideTile.scale-150.png
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\appiconWideTile.scale-125.png
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\appiconWideTile.scale-100.png
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\appiconMediumTile.scale-400.png
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\appiconMediumTile.scale-200.png
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\appiconMediumTile.scale-150.png
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\appiconMediumTile.scale-125.png
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\appiconMediumTile.scale-100.png
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\appiconSmallTile.scale-400.png
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\appiconSmallTile.scale-200.png
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\appiconSmallTile.scale-150.png
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\appiconSmallTile.scale-125.png
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\appiconSmallTile.scale-100.png
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\appiconStoreLogo.scale-400.png
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\appiconStoreLogo.scale-200.png
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\appiconStoreLogo.scale-150.png
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\appiconStoreLogo.scale-125.png
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\appiconStoreLogo.scale-100.png
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\appiconLogo.altform-lightunplated_targetsize-256.png
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\appiconLogo.altform-lightunplated_targetsize-48.png
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\appiconLogo.altform-lightunplated_targetsize-32.png
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\appiconLogo.altform-lightunplated_targetsize-24.png
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\appiconLogo.altform-lightunplated_targetsize-16.png
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\appiconLogo.altform-unplated_targetsize-256.png
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\appiconLogo.altform-unplated_targetsize-48.png
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\appiconLogo.altform-unplated_targetsize-32.png
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\appiconLogo.altform-unplated_targetsize-24.png
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\appiconLogo.altform-unplated_targetsize-16.png
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\appiconLogo.targetsize-256.png
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\appiconLogo.targetsize-48.png
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\appiconLogo.targetsize-32.png
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\appiconLogo.targetsize-24.png
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\appiconLogo.targetsize-16.png
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\appiconLogo.scale-400.png
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\appiconLogo.scale-200.png
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\appiconLogo.scale-150.png
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\appiconLogo.scale-125.png
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\appiconLogo.scale-100.png
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\appicon.ico
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\dotnet_bot.scale-400.png
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\dotnet_bot.scale-200.png
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\dotnet_bot.scale-150.png
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\dotnet_bot.scale-125.png
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\dotnet_bot.scale-100.png
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\CoreMessagingXP.dll
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\dcompi.dll
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\dwmcorei.dll
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\DwmSceneI.dll
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\DWriteCore.dll
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\marshal.dll
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Microsoft.DirectManipulation.dll
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Microsoft.Graphics.Display.dll
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Microsoft.Graphics.Imaging.dll
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Microsoft.InputStateManager.dll
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Microsoft.Internal.FrameworkUdk.dll
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Microsoft.UI.Composition.OSSupport.dll
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Microsoft.UI.dll
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Microsoft.UI.Input.dll
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Microsoft.UI.Windowing.Core.dll
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Microsoft.UI.Windowing.dll
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Microsoft.UI.Xaml.Controls.dll
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Microsoft.ui.xaml.dll
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Microsoft.UI.Xaml.Internal.dll
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Microsoft.UI.Xaml.Phone.dll
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Microsoft.ui.xaml.resources.19h1.dll
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Microsoft.ui.xaml.resources.common.dll
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Microsoft.Windows.AI.ContentSafety.dll
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Microsoft.Windows.AI.Imaging.dll
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Microsoft.Windows.AI.Text.dll
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Microsoft.Windows.ApplicationModel.Resources.dll
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Microsoft.Windows.Widgets.dll
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Microsoft.Windows.Workloads.dll
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Microsoft.Windows.Workloads.Resources.dll
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Microsoft.Windows.Workloads.Resources_ec.dll
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Microsoft.WindowsAppRuntime.dll
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Microsoft.WindowsAppRuntime.Insights.Resource.dll
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\MRM.dll
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\NpuDetect\NPUDetect.dll
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\PushNotificationsLongRunningTask.ProxyStub.dll
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\SessionHandleIPCProxyStub.dll
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\WindowsAppRuntime.DeploymentExtensions.OneCore.dll
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\WindowsAppSdk.AppxDeploymentExtensions.Desktop-EventLog-Instrumentation.dll
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\WindowsAppSdk.AppxDeploymentExtensions.Desktop.dll
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\WinUIEdit.dll
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\wuceffectsi.dll
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\workloads.365.json
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\workloads.json
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\workloads.lnl.json
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\workloads.qnn.json
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\workloads.stx.json
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\RestartAgent.exe
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Microsoft.UI.Xaml\Assets\map.html
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\af-ZA\Microsoft.ui.xaml.dll.mui
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\af-ZA\Microsoft.UI.Xaml.Phone.dll.mui
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\am-ET\Microsoft.ui.xaml.dll.mui
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\am-ET\Microsoft.UI.Xaml.Phone.dll.mui
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\ar-SA\Microsoft.ui.xaml.dll.mui
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\ar-SA\Microsoft.UI.Xaml.Phone.dll.mui
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\as-IN\Microsoft.ui.xaml.dll.mui
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\as-IN\Microsoft.UI.Xaml.Phone.dll.mui
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\az-Latn-AZ\Microsoft.ui.xaml.dll.mui
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\az-Latn-AZ\Microsoft.UI.Xaml.Phone.dll.mui
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\bg-BG\Microsoft.ui.xaml.dll.mui
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\bg-BG\Microsoft.UI.Xaml.Phone.dll.mui
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\bn-IN\Microsoft.ui.xaml.dll.mui
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\bn-IN\Microsoft.UI.Xaml.Phone.dll.mui
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\bs-Latn-BA\Microsoft.ui.xaml.dll.mui
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\bs-Latn-BA\Microsoft.UI.Xaml.Phone.dll.mui
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\ca-Es-VALENCIA\Microsoft.ui.xaml.dll.mui
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\ca-Es-VALENCIA\Microsoft.UI.Xaml.Phone.dll.mui
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\ca-ES\Microsoft.ui.xaml.dll.mui
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\ca-ES\Microsoft.UI.Xaml.Phone.dll.mui
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\cs-CZ\Microsoft.ui.xaml.dll.mui
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\cs-CZ\Microsoft.UI.Xaml.Phone.dll.mui
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\cy-GB\Microsoft.ui.xaml.dll.mui
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\cy-GB\Microsoft.UI.Xaml.Phone.dll.mui
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\da-DK\Microsoft.ui.xaml.dll.mui
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\da-DK\Microsoft.UI.Xaml.Phone.dll.mui
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\de-DE\Microsoft.ui.xaml.dll.mui
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\de-DE\Microsoft.UI.Xaml.Phone.dll.mui
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\el-GR\Microsoft.ui.xaml.dll.mui
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\el-GR\Microsoft.UI.Xaml.Phone.dll.mui
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\en-GB\Microsoft.ui.xaml.dll.mui
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\en-GB\Microsoft.UI.Xaml.Phone.dll.mui
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\en-us\Microsoft.ui.xaml.dll.mui
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\en-us\Microsoft.UI.Xaml.Phone.dll.mui
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\es-ES\Microsoft.ui.xaml.dll.mui
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\es-ES\Microsoft.UI.Xaml.Phone.dll.mui
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\es-MX\Microsoft.ui.xaml.dll.mui
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\es-MX\Microsoft.UI.Xaml.Phone.dll.mui
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\et-EE\Microsoft.ui.xaml.dll.mui
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\et-EE\Microsoft.UI.Xaml.Phone.dll.mui
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\eu-ES\Microsoft.ui.xaml.dll.mui
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\eu-ES\Microsoft.UI.Xaml.Phone.dll.mui
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\fa-IR\Microsoft.ui.xaml.dll.mui
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\fa-IR\Microsoft.UI.Xaml.Phone.dll.mui
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\fi-FI\Microsoft.ui.xaml.dll.mui
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\fi-FI\Microsoft.UI.Xaml.Phone.dll.mui
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\fil-PH\Microsoft.ui.xaml.dll.mui
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\fil-PH\Microsoft.UI.Xaml.Phone.dll.mui
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\fr-CA\Microsoft.ui.xaml.dll.mui
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\fr-CA\Microsoft.UI.Xaml.Phone.dll.mui
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\fr-FR\Microsoft.ui.xaml.dll.mui
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\fr-FR\Microsoft.UI.Xaml.Phone.dll.mui
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\ga-IE\Microsoft.ui.xaml.dll.mui
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\ga-IE\Microsoft.UI.Xaml.Phone.dll.mui
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\gd-gb\Microsoft.ui.xaml.dll.mui
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\gd-gb\Microsoft.UI.Xaml.Phone.dll.mui
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\gl-ES\Microsoft.ui.xaml.dll.mui
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\gl-ES\Microsoft.UI.Xaml.Phone.dll.mui
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\gu-IN\Microsoft.ui.xaml.dll.mui
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\gu-IN\Microsoft.UI.Xaml.Phone.dll.mui
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\he-IL\Microsoft.ui.xaml.dll.mui
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\he-IL\Microsoft.UI.Xaml.Phone.dll.mui
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\hi-IN\Microsoft.ui.xaml.dll.mui
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\hi-IN\Microsoft.UI.Xaml.Phone.dll.mui
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\hr-HR\Microsoft.ui.xaml.dll.mui
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\hr-HR\Microsoft.UI.Xaml.Phone.dll.mui
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\hu-HU\Microsoft.ui.xaml.dll.mui
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\hu-HU\Microsoft.UI.Xaml.Phone.dll.mui
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\hy-AM\Microsoft.ui.xaml.dll.mui
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\hy-AM\Microsoft.UI.Xaml.Phone.dll.mui
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\id-ID\Microsoft.ui.xaml.dll.mui
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\id-ID\Microsoft.UI.Xaml.Phone.dll.mui
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\is-IS\Microsoft.ui.xaml.dll.mui
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\is-IS\Microsoft.UI.Xaml.Phone.dll.mui
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\it-IT\Microsoft.ui.xaml.dll.mui
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\it-IT\Microsoft.UI.Xaml.Phone.dll.mui
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\ja-JP\Microsoft.ui.xaml.dll.mui
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\ja-JP\Microsoft.UI.Xaml.Phone.dll.mui
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\ka-GE\Microsoft.ui.xaml.dll.mui
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\ka-GE\Microsoft.UI.Xaml.Phone.dll.mui
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\kk-KZ\Microsoft.ui.xaml.dll.mui
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\kk-KZ\Microsoft.UI.Xaml.Phone.dll.mui
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\km-KH\Microsoft.ui.xaml.dll.mui
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\km-KH\Microsoft.UI.Xaml.Phone.dll.mui
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\kn-IN\Microsoft.ui.xaml.dll.mui
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\kn-IN\Microsoft.UI.Xaml.Phone.dll.mui
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\ko-KR\Microsoft.ui.xaml.dll.mui
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\ko-KR\Microsoft.UI.Xaml.Phone.dll.mui
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\kok-IN\Microsoft.ui.xaml.dll.mui
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\kok-IN\Microsoft.UI.Xaml.Phone.dll.mui
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\lb-LU\Microsoft.ui.xaml.dll.mui
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\lb-LU\Microsoft.UI.Xaml.Phone.dll.mui
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\lo-LA\Microsoft.ui.xaml.dll.mui
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\lo-LA\Microsoft.UI.Xaml.Phone.dll.mui
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\lt-LT\Microsoft.ui.xaml.dll.mui
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\lt-LT\Microsoft.UI.Xaml.Phone.dll.mui
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\lv-LV\Microsoft.ui.xaml.dll.mui
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\lv-LV\Microsoft.UI.Xaml.Phone.dll.mui
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\mi-NZ\Microsoft.ui.xaml.dll.mui
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\mi-NZ\Microsoft.UI.Xaml.Phone.dll.mui
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\mk-MK\Microsoft.ui.xaml.dll.mui
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\mk-MK\Microsoft.UI.Xaml.Phone.dll.mui
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\ml-IN\Microsoft.ui.xaml.dll.mui
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\ml-IN\Microsoft.UI.Xaml.Phone.dll.mui
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\mr-IN\Microsoft.ui.xaml.dll.mui
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\mr-IN\Microsoft.UI.Xaml.Phone.dll.mui
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\ms-MY\Microsoft.ui.xaml.dll.mui
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\ms-MY\Microsoft.UI.Xaml.Phone.dll.mui
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\mt-MT\Microsoft.ui.xaml.dll.mui
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\mt-MT\Microsoft.UI.Xaml.Phone.dll.mui
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\nb-NO\Microsoft.ui.xaml.dll.mui
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\nb-NO\Microsoft.UI.Xaml.Phone.dll.mui
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\ne-NP\Microsoft.ui.xaml.dll.mui
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\ne-NP\Microsoft.UI.Xaml.Phone.dll.mui
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\nl-NL\Microsoft.ui.xaml.dll.mui
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\nl-NL\Microsoft.UI.Xaml.Phone.dll.mui
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\nn-NO\Microsoft.ui.xaml.dll.mui
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\nn-NO\Microsoft.UI.Xaml.Phone.dll.mui
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\or-IN\Microsoft.ui.xaml.dll.mui
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\or-IN\Microsoft.UI.Xaml.Phone.dll.mui
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\pa-IN\Microsoft.ui.xaml.dll.mui
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\pa-IN\Microsoft.UI.Xaml.Phone.dll.mui
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\pl-PL\Microsoft.ui.xaml.dll.mui
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\pl-PL\Microsoft.UI.Xaml.Phone.dll.mui
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\pt-BR\Microsoft.ui.xaml.dll.mui
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\pt-BR\Microsoft.UI.Xaml.Phone.dll.mui
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\pt-PT\Microsoft.ui.xaml.dll.mui
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\pt-PT\Microsoft.UI.Xaml.Phone.dll.mui
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\quz-PE\Microsoft.ui.xaml.dll.mui
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\quz-PE\Microsoft.UI.Xaml.Phone.dll.mui
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\ro-RO\Microsoft.ui.xaml.dll.mui
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\ro-RO\Microsoft.UI.Xaml.Phone.dll.mui
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\ru-RU\Microsoft.ui.xaml.dll.mui
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\ru-RU\Microsoft.UI.Xaml.Phone.dll.mui
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\sk-SK\Microsoft.ui.xaml.dll.mui
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\sk-SK\Microsoft.UI.Xaml.Phone.dll.mui
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\sl-SI\Microsoft.ui.xaml.dll.mui
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\sl-SI\Microsoft.UI.Xaml.Phone.dll.mui
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\sq-AL\Microsoft.ui.xaml.dll.mui
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\sq-AL\Microsoft.UI.Xaml.Phone.dll.mui
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\sr-Cyrl-BA\Microsoft.ui.xaml.dll.mui
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\sr-Cyrl-BA\Microsoft.UI.Xaml.Phone.dll.mui
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\sr-Cyrl-RS\Microsoft.ui.xaml.dll.mui
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\sr-Cyrl-RS\Microsoft.UI.Xaml.Phone.dll.mui
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\sr-Latn-RS\Microsoft.ui.xaml.dll.mui
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\sr-Latn-RS\Microsoft.UI.Xaml.Phone.dll.mui
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\sv-SE\Microsoft.ui.xaml.dll.mui
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\sv-SE\Microsoft.UI.Xaml.Phone.dll.mui
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\ta-IN\Microsoft.ui.xaml.dll.mui
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\ta-IN\Microsoft.UI.Xaml.Phone.dll.mui
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\te-IN\Microsoft.ui.xaml.dll.mui
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\te-IN\Microsoft.UI.Xaml.Phone.dll.mui
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\th-TH\Microsoft.ui.xaml.dll.mui
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\th-TH\Microsoft.UI.Xaml.Phone.dll.mui
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\tr-TR\Microsoft.ui.xaml.dll.mui
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\tr-TR\Microsoft.UI.Xaml.Phone.dll.mui
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\tt-RU\Microsoft.ui.xaml.dll.mui
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\tt-RU\Microsoft.UI.Xaml.Phone.dll.mui
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\ug-CN\Microsoft.ui.xaml.dll.mui
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\ug-CN\Microsoft.UI.Xaml.Phone.dll.mui
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\uk-UA\Microsoft.ui.xaml.dll.mui
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\uk-UA\Microsoft.UI.Xaml.Phone.dll.mui
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\ur-PK\Microsoft.ui.xaml.dll.mui
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\ur-PK\Microsoft.UI.Xaml.Phone.dll.mui
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\uz-Latn-UZ\Microsoft.ui.xaml.dll.mui
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\uz-Latn-UZ\Microsoft.UI.Xaml.Phone.dll.mui
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\vi-VN\Microsoft.ui.xaml.dll.mui
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\vi-VN\Microsoft.UI.Xaml.Phone.dll.mui
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\zh-CN\Microsoft.ui.xaml.dll.mui
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\zh-CN\Microsoft.UI.Xaml.Phone.dll.mui
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\zh-TW\Microsoft.ui.xaml.dll.mui
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\zh-TW\Microsoft.UI.Xaml.Phone.dll.mui
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Microsoft.UI.Xaml\Assets\NoiseAsset_256x256_PNG.png
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\WindowsAppRuntime.png
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Microsoft.Foundation.winmd
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Microsoft.Graphics.Imaging.winmd
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Microsoft.Graphics.ImagingInternal.winmd
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Microsoft.Graphics.Internal.Imaging.winmd
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Microsoft.Graphics.winmd
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Microsoft.Security.Authentication.OAuth.winmd
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Microsoft.UI.Text.winmd
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Microsoft.UI.winmd
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Microsoft.UI.Xaml.winmd
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Microsoft.Windows.AI.ContentModerationInternal.winmd
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Microsoft.Windows.AI.ContentSafety.winmd
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Microsoft.Windows.AI.Foundation.winmd
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Microsoft.Windows.AI.FoundationInternal.winmd
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Microsoft.Windows.AI.GenerativeInternal.winmd
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Microsoft.Windows.AI.Imaging.winmd
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Microsoft.Windows.AI.Text.winmd
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Microsoft.Windows.AI.winmd
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Microsoft.Windows.ApplicationModel.Background.UniversalBGTask.winmd
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Microsoft.Windows.ApplicationModel.Background.winmd
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Microsoft.Windows.ApplicationModel.DynamicDependency.winmd
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Microsoft.Windows.ApplicationModel.Resources.winmd
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Microsoft.Windows.ApplicationModel.WindowsAppRuntime.winmd
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Microsoft.Windows.AppLifecycle.winmd
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Microsoft.Windows.AppNotifications.Builder.winmd
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Microsoft.Windows.AppNotifications.winmd
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Microsoft.Windows.BadgeNotifications.winmd
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Microsoft.Windows.Globalization.winmd
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Microsoft.Windows.Internal.Vision.winmd
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Microsoft.Windows.Management.Deployment.winmd
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Microsoft.Windows.Media.Capture.winmd
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Microsoft.Windows.Private.Workloads.SessionManager.winmd
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Microsoft.Windows.PrivateCommon.winmd
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Microsoft.Windows.PushNotifications.winmd
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Microsoft.Windows.Security.AccessControl.winmd
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Microsoft.Windows.SemanticSearch.winmd
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Microsoft.Windows.Storage.winmd
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Microsoft.Windows.System.Power.winmd
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Microsoft.Windows.System.winmd
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Microsoft.Windows.Vision.winmd
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Microsoft.Windows.VisionInternal.winmd
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Microsoft.Windows.Widgets.winmd
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Microsoft.Windows.Workloads.winmd
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Pexel.exe
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Pexel.deps.json
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Pexel.runtimeconfig.json
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Pexel.dll
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Pexel.pdb
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\resources.pri
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Microsoft.Web.WebView2.Core.dll
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Microsoft.Extensions.Configuration.dll
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Microsoft.Extensions.Configuration.Abstractions.dll
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Microsoft.Extensions.DependencyInjection.dll
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Microsoft.Extensions.DependencyInjection.Abstractions.dll
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Microsoft.Extensions.Logging.dll
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Microsoft.Extensions.Logging.Abstractions.dll
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Microsoft.Extensions.Logging.Debug.dll
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Microsoft.Extensions.Options.dll
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Microsoft.Extensions.Primitives.dll
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Microsoft.Graphics.Canvas.Interop.dll
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Microsoft.IO.RecyclableMemoryStream.dll
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Microsoft.Maui.Controls.dll
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Microsoft.Maui.Controls.Xaml.dll
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Microsoft.Maui.dll
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Microsoft.Maui.Essentials.dll
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Microsoft.Maui.Graphics.dll
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Microsoft.Maui.Graphics.Win2D.WinUI.Desktop.dll
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Microsoft.Graphics.Imaging.Projection.dll
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Microsoft.InteractiveExperiences.Projection.dll
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Microsoft.Security.Authentication.OAuth.Projection.dll
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Microsoft.WinUI.dll
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Microsoft.Windows.AI.ContentSafety.Projection.dll
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Microsoft.Windows.AI.Imaging.Projection.dll
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Microsoft.Windows.AI.Projection.dll
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Microsoft.Windows.AI.Text.Projection.dll
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Microsoft.Windows.AppLifecycle.Projection.dll
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Microsoft.Windows.AppNotifications.Builder.Projection.dll
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Microsoft.Windows.AppNotifications.Projection.dll
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Microsoft.Windows.ApplicationModel.Background.Projection.dll
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Microsoft.Windows.ApplicationModel.DynamicDependency.Projection.dll
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Microsoft.Windows.ApplicationModel.Resources.Projection.dll
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Microsoft.Windows.ApplicationModel.WindowsAppRuntime.Projection.dll
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Microsoft.Windows.BadgeNotifications.Projection.dll
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Microsoft.Windows.Management.Deployment.Projection.dll
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Microsoft.Windows.Media.Capture.Projection.dll
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Microsoft.Windows.PushNotifications.Projection.dll
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Microsoft.Windows.Security.AccessControl.Projection.dll
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Microsoft.Windows.Storage.Projection.dll
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Microsoft.Windows.System.Power.Projection.dll
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Microsoft.Windows.System.Projection.dll
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Microsoft.Windows.Widgets.Projection.dll
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Microsoft.WindowsAppRuntime.Bootstrap.Net.dll
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\ar\Microsoft.Maui.Controls.resources.dll
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\ca\Microsoft.Maui.Controls.resources.dll
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\cs\Microsoft.Maui.Controls.resources.dll
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\da\Microsoft.Maui.Controls.resources.dll
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\de\Microsoft.Maui.Controls.resources.dll
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\el\Microsoft.Maui.Controls.resources.dll
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\es\Microsoft.Maui.Controls.resources.dll
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\fi\Microsoft.Maui.Controls.resources.dll
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\fr\Microsoft.Maui.Controls.resources.dll
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\he\Microsoft.Maui.Controls.resources.dll
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\hi\Microsoft.Maui.Controls.resources.dll
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\hr\Microsoft.Maui.Controls.resources.dll
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\hu\Microsoft.Maui.Controls.resources.dll
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\id\Microsoft.Maui.Controls.resources.dll
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\it\Microsoft.Maui.Controls.resources.dll
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\ja\Microsoft.Maui.Controls.resources.dll
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\ko\Microsoft.Maui.Controls.resources.dll
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\ms\Microsoft.Maui.Controls.resources.dll
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\nb\Microsoft.Maui.Controls.resources.dll
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\nl\Microsoft.Maui.Controls.resources.dll
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\pl\Microsoft.Maui.Controls.resources.dll
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\pt-BR\Microsoft.Maui.Controls.resources.dll
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\pt\Microsoft.Maui.Controls.resources.dll
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\ro\Microsoft.Maui.Controls.resources.dll
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\ru\Microsoft.Maui.Controls.resources.dll
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\sk\Microsoft.Maui.Controls.resources.dll
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\sv\Microsoft.Maui.Controls.resources.dll
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\th\Microsoft.Maui.Controls.resources.dll
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\tr\Microsoft.Maui.Controls.resources.dll
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\uk\Microsoft.Maui.Controls.resources.dll
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\vi\Microsoft.Maui.Controls.resources.dll
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\zh-HK\Microsoft.Maui.Controls.resources.dll
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\zh-Hans\Microsoft.Maui.Controls.resources.dll
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\zh-Hant\Microsoft.Maui.Controls.resources.dll
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Microsoft.Graphics.Canvas.dll
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\WebView2Loader.dll
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Microsoft.Windows.ApplicationModel.Background.UniversalBGTask.dll
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Microsoft.WindowsAppRuntime.Bootstrap.dll
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Microsoft.Windows.SDK.NET.dll
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\WinRT.Runtime.dll
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Microsoft.Web.WebView2.Core.Projection.dll
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Microsoft.UI.pri
-D:\.NET Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Microsoft.UI.Xaml.Controls.pri
-D:\.NET Lab1\Pexel\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\Pexel.csproj.AssemblyReference.cache
-D:\.NET Lab1\Pexel\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\mauiimage.inputs
-D:\.NET Lab1\Pexel\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\mauifont.inputs
-D:\.NET Lab1\Pexel\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\mauisplash.inputs
-D:\.NET Lab1\Pexel\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\mauimanifest.stamp
-D:\.NET Lab1\Pexel\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\Platforms\Windows\App.g.i.cs
-D:\.NET Lab1\Pexel\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\Platforms\Windows\App.g.cs
-D:\.NET Lab1\Pexel\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\XamlTypeInfo.g.cs
-D:\.NET Lab1\Pexel\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\Platforms\Windows\App.xaml
-D:\.NET Lab1\Pexel\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\Platforms\Windows\App.xbf
-D:\.NET Lab1\Pexel\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\XamlSaveStateFile.xml
-D:\.NET Lab1\Pexel\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\Pexel.GeneratedMSBuildEditorConfig.editorconfig
-D:\.NET Lab1\Pexel\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-100.png
-D:\.NET Lab1\Pexel\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-125.png
-D:\.NET Lab1\Pexel\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-150.png
-D:\.NET Lab1\Pexel\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-200.png
-D:\.NET Lab1\Pexel\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-400.png
-D:\.NET Lab1\Pexel\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\mauisplash.stamp
-D:\.NET Lab1\Pexel\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\mauifont.stamp
-D:\.NET Lab1\Pexel\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Regular.ttf
-D:\.NET Lab1\Pexel\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Semibold.ttf
-D:\.NET Lab1\Pexel\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-400.png
-D:\.NET Lab1\Pexel\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-200.png
-D:\.NET Lab1\Pexel\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-150.png
-D:\.NET Lab1\Pexel\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-125.png
-D:\.NET Lab1\Pexel\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-100.png
-D:\.NET Lab1\Pexel\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-400.png
-D:\.NET Lab1\Pexel\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-200.png
-D:\.NET Lab1\Pexel\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-150.png
-D:\.NET Lab1\Pexel\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-125.png
-D:\.NET Lab1\Pexel\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-100.png
-D:\.NET Lab1\Pexel\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-400.png
-D:\.NET Lab1\Pexel\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-200.png
-D:\.NET Lab1\Pexel\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-150.png
-D:\.NET Lab1\Pexel\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-125.png
-D:\.NET Lab1\Pexel\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-100.png
-D:\.NET Lab1\Pexel\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-400.png
-D:\.NET Lab1\Pexel\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-200.png
-D:\.NET Lab1\Pexel\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-150.png
-D:\.NET Lab1\Pexel\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-125.png
-D:\.NET Lab1\Pexel\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-100.png
-D:\.NET Lab1\Pexel\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-400.png
-D:\.NET Lab1\Pexel\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-200.png
-D:\.NET Lab1\Pexel\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-150.png
-D:\.NET Lab1\Pexel\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-125.png
-D:\.NET Lab1\Pexel\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-100.png
-D:\.NET Lab1\Pexel\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-256.png
-D:\.NET Lab1\Pexel\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-48.png
-D:\.NET Lab1\Pexel\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-32.png
-D:\.NET Lab1\Pexel\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-24.png
-D:\.NET Lab1\Pexel\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-16.png
-D:\.NET Lab1\Pexel\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-256.png
-D:\.NET Lab1\Pexel\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-48.png
-D:\.NET Lab1\Pexel\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-32.png
-D:\.NET Lab1\Pexel\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-24.png
-D:\.NET Lab1\Pexel\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-16.png
-D:\.NET Lab1\Pexel\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-256.png
-D:\.NET Lab1\Pexel\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-48.png
-D:\.NET Lab1\Pexel\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-32.png
-D:\.NET Lab1\Pexel\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-24.png
-D:\.NET Lab1\Pexel\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-16.png
-D:\.NET Lab1\Pexel\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-400.png
-D:\.NET Lab1\Pexel\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-200.png
-D:\.NET Lab1\Pexel\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-150.png
-D:\.NET Lab1\Pexel\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-125.png
-D:\.NET Lab1\Pexel\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-100.png
-D:\.NET Lab1\Pexel\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon.ico
-D:\.NET Lab1\Pexel\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-400.png
-D:\.NET Lab1\Pexel\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-200.png
-D:\.NET Lab1\Pexel\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-150.png
-D:\.NET Lab1\Pexel\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-125.png
-D:\.NET Lab1\Pexel\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-100.png
-D:\.NET Lab1\Pexel\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\mauiimage.stamp
-D:\.NET Lab1\Pexel\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\mauiimage.outputs
-D:\.NET Lab1\Pexel\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\Pexel.AssemblyInfoInputs.cache
-D:\.NET Lab1\Pexel\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\Pexel.AssemblyInfo.cs
-D:\.NET Lab1\Pexel\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\Pexel.csproj.CoreCompileInputs.cache
-D:\.NET Lab1\Pexel\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\XamlC.stamp
-D:\.NET Lab1\Pexel\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\Pexel.csproj.Up2Date
-D:\.NET Lab1\Pexel\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\Pexel.dll
-D:\.NET Lab1\Pexel\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\refint\Pexel.dll
-D:\.NET Lab1\Pexel\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\Pexel.pdb
-D:\.NET Lab1\Pexel\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\Pexel.genruntimeconfig.cache
-D:\.NET Lab1\Pexel\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\ref\Pexel.dll
-D:\.NET Lab1\Pexel\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\priconfig.xml
-D:\.NET Lab1\Pexel\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\priconfig.xml.intermediate
-D:\.NET Lab1\Pexel\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\unfiltered.layout.resfiles
-D:\.NET Lab1\Pexel\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\unfiltered.layout.resfiles.intermediate
-D:\.NET Lab1\Pexel\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\filtered.layout.resfiles
-D:\.NET Lab1\Pexel\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\filtered.layout.resfiles.intermediate
-D:\.NET Lab1\Pexel\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\excluded.layout.resfiles
-D:\.NET Lab1\Pexel\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\excluded.layout.resfiles.intermediate
-D:\.NET Lab1\Pexel\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resources.resfiles
-D:\.NET Lab1\Pexel\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resources.resfiles.intermediate
-D:\.NET Lab1\Pexel\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\pri.resfiles
-D:\.NET Lab1\Pexel\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\pri.resfiles.intermediate
-D:\.NET Lab1\Pexel\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\qualifiers.txt
-D:\.NET Lab1\Pexel\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\qualifiers.txt.intermediate
-D:\.NET Lab1\Pexel\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\MultipleQualifiersPerDimensionFound.txt
+D:\Lab1\Pexel\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\Pexel.csproj.AssemblyReference.cache
+D:\Lab1\Pexel\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\mauiimage.inputs
+D:\Lab1\Pexel\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\mauifont.inputs
+D:\Lab1\Pexel\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\mauisplash.inputs
+D:\Lab1\Pexel\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\mauimanifest.stamp
+D:\Lab1\Pexel\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\Platforms\Windows\App.g.i.cs
+D:\Lab1\Pexel\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\Platforms\Windows\App.g.cs
+D:\Lab1\Pexel\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\XamlTypeInfo.g.cs
+D:\Lab1\Pexel\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\Platforms\Windows\App.xaml
+D:\Lab1\Pexel\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\Platforms\Windows\App.xbf
+D:\Lab1\Pexel\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\XamlSaveStateFile.xml
+D:\Lab1\Pexel\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\Pexel.GeneratedMSBuildEditorConfig.editorconfig
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\AboutAssets.txt
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\OpenSans-Regular.ttf
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\OpenSans-Semibold.ttf
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\CoreMessagingXP.dll
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\dcompi.dll
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\dwmcorei.dll
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\DwmSceneI.dll
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\DWriteCore.dll
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\marshal.dll
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Microsoft.DirectManipulation.dll
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Microsoft.Graphics.Display.dll
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Microsoft.Graphics.Imaging.dll
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Microsoft.InputStateManager.dll
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Microsoft.Internal.FrameworkUdk.dll
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Microsoft.UI.Composition.OSSupport.dll
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Microsoft.UI.dll
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Microsoft.UI.Input.dll
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Microsoft.UI.Windowing.Core.dll
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Microsoft.UI.Windowing.dll
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Microsoft.UI.Xaml.Controls.dll
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Microsoft.ui.xaml.dll
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Microsoft.UI.Xaml.Internal.dll
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Microsoft.UI.Xaml.Phone.dll
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Microsoft.ui.xaml.resources.19h1.dll
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Microsoft.ui.xaml.resources.common.dll
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Microsoft.Windows.AI.ContentSafety.dll
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Microsoft.Windows.AI.Imaging.dll
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Microsoft.Windows.AI.Text.dll
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Microsoft.Windows.ApplicationModel.Resources.dll
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Microsoft.Windows.Widgets.dll
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Microsoft.Windows.Workloads.dll
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Microsoft.Windows.Workloads.Resources.dll
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Microsoft.Windows.Workloads.Resources_ec.dll
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Microsoft.WindowsAppRuntime.dll
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Microsoft.WindowsAppRuntime.Insights.Resource.dll
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\MRM.dll
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\NpuDetect\NPUDetect.dll
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\PushNotificationsLongRunningTask.ProxyStub.dll
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\SessionHandleIPCProxyStub.dll
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\WindowsAppRuntime.DeploymentExtensions.OneCore.dll
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\WindowsAppSdk.AppxDeploymentExtensions.Desktop-EventLog-Instrumentation.dll
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\WindowsAppSdk.AppxDeploymentExtensions.Desktop.dll
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\WinUIEdit.dll
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\wuceffectsi.dll
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\workloads.365.json
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\workloads.json
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\workloads.lnl.json
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\workloads.qnn.json
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\workloads.stx.json
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\RestartAgent.exe
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Microsoft.UI.Xaml\Assets\map.html
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\af-ZA\Microsoft.ui.xaml.dll.mui
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\af-ZA\Microsoft.UI.Xaml.Phone.dll.mui
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\am-ET\Microsoft.ui.xaml.dll.mui
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\am-ET\Microsoft.UI.Xaml.Phone.dll.mui
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\ar-SA\Microsoft.ui.xaml.dll.mui
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\ar-SA\Microsoft.UI.Xaml.Phone.dll.mui
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\as-IN\Microsoft.ui.xaml.dll.mui
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\as-IN\Microsoft.UI.Xaml.Phone.dll.mui
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\az-Latn-AZ\Microsoft.ui.xaml.dll.mui
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\az-Latn-AZ\Microsoft.UI.Xaml.Phone.dll.mui
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\bg-BG\Microsoft.ui.xaml.dll.mui
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\bg-BG\Microsoft.UI.Xaml.Phone.dll.mui
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\bn-IN\Microsoft.ui.xaml.dll.mui
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\bn-IN\Microsoft.UI.Xaml.Phone.dll.mui
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\bs-Latn-BA\Microsoft.ui.xaml.dll.mui
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\bs-Latn-BA\Microsoft.UI.Xaml.Phone.dll.mui
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\ca-Es-VALENCIA\Microsoft.ui.xaml.dll.mui
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\ca-Es-VALENCIA\Microsoft.UI.Xaml.Phone.dll.mui
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\ca-ES\Microsoft.ui.xaml.dll.mui
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\ca-ES\Microsoft.UI.Xaml.Phone.dll.mui
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\cs-CZ\Microsoft.ui.xaml.dll.mui
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\cs-CZ\Microsoft.UI.Xaml.Phone.dll.mui
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\cy-GB\Microsoft.ui.xaml.dll.mui
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\cy-GB\Microsoft.UI.Xaml.Phone.dll.mui
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\da-DK\Microsoft.ui.xaml.dll.mui
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\da-DK\Microsoft.UI.Xaml.Phone.dll.mui
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\de-DE\Microsoft.ui.xaml.dll.mui
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\de-DE\Microsoft.UI.Xaml.Phone.dll.mui
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\el-GR\Microsoft.ui.xaml.dll.mui
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\el-GR\Microsoft.UI.Xaml.Phone.dll.mui
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\en-GB\Microsoft.ui.xaml.dll.mui
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\en-GB\Microsoft.UI.Xaml.Phone.dll.mui
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\en-us\Microsoft.ui.xaml.dll.mui
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\en-us\Microsoft.UI.Xaml.Phone.dll.mui
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\es-ES\Microsoft.ui.xaml.dll.mui
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\es-ES\Microsoft.UI.Xaml.Phone.dll.mui
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\es-MX\Microsoft.ui.xaml.dll.mui
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\es-MX\Microsoft.UI.Xaml.Phone.dll.mui
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\et-EE\Microsoft.ui.xaml.dll.mui
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\et-EE\Microsoft.UI.Xaml.Phone.dll.mui
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\eu-ES\Microsoft.ui.xaml.dll.mui
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\eu-ES\Microsoft.UI.Xaml.Phone.dll.mui
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\fa-IR\Microsoft.ui.xaml.dll.mui
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\fa-IR\Microsoft.UI.Xaml.Phone.dll.mui
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\fi-FI\Microsoft.ui.xaml.dll.mui
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\fi-FI\Microsoft.UI.Xaml.Phone.dll.mui
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\fil-PH\Microsoft.ui.xaml.dll.mui
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\fil-PH\Microsoft.UI.Xaml.Phone.dll.mui
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\fr-CA\Microsoft.ui.xaml.dll.mui
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\fr-CA\Microsoft.UI.Xaml.Phone.dll.mui
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\fr-FR\Microsoft.ui.xaml.dll.mui
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\fr-FR\Microsoft.UI.Xaml.Phone.dll.mui
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\ga-IE\Microsoft.ui.xaml.dll.mui
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\ga-IE\Microsoft.UI.Xaml.Phone.dll.mui
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\gd-gb\Microsoft.ui.xaml.dll.mui
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\gd-gb\Microsoft.UI.Xaml.Phone.dll.mui
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\gl-ES\Microsoft.ui.xaml.dll.mui
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\gl-ES\Microsoft.UI.Xaml.Phone.dll.mui
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\gu-IN\Microsoft.ui.xaml.dll.mui
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\gu-IN\Microsoft.UI.Xaml.Phone.dll.mui
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\he-IL\Microsoft.ui.xaml.dll.mui
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\he-IL\Microsoft.UI.Xaml.Phone.dll.mui
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\hi-IN\Microsoft.ui.xaml.dll.mui
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\hi-IN\Microsoft.UI.Xaml.Phone.dll.mui
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\hr-HR\Microsoft.ui.xaml.dll.mui
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\hr-HR\Microsoft.UI.Xaml.Phone.dll.mui
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\hu-HU\Microsoft.ui.xaml.dll.mui
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\hu-HU\Microsoft.UI.Xaml.Phone.dll.mui
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\hy-AM\Microsoft.ui.xaml.dll.mui
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\hy-AM\Microsoft.UI.Xaml.Phone.dll.mui
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\id-ID\Microsoft.ui.xaml.dll.mui
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\id-ID\Microsoft.UI.Xaml.Phone.dll.mui
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\is-IS\Microsoft.ui.xaml.dll.mui
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\is-IS\Microsoft.UI.Xaml.Phone.dll.mui
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\it-IT\Microsoft.ui.xaml.dll.mui
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\it-IT\Microsoft.UI.Xaml.Phone.dll.mui
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\ja-JP\Microsoft.ui.xaml.dll.mui
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\ja-JP\Microsoft.UI.Xaml.Phone.dll.mui
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\ka-GE\Microsoft.ui.xaml.dll.mui
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\ka-GE\Microsoft.UI.Xaml.Phone.dll.mui
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\kk-KZ\Microsoft.ui.xaml.dll.mui
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\kk-KZ\Microsoft.UI.Xaml.Phone.dll.mui
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\km-KH\Microsoft.ui.xaml.dll.mui
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\km-KH\Microsoft.UI.Xaml.Phone.dll.mui
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\kn-IN\Microsoft.ui.xaml.dll.mui
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\kn-IN\Microsoft.UI.Xaml.Phone.dll.mui
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\ko-KR\Microsoft.ui.xaml.dll.mui
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\ko-KR\Microsoft.UI.Xaml.Phone.dll.mui
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\kok-IN\Microsoft.ui.xaml.dll.mui
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\kok-IN\Microsoft.UI.Xaml.Phone.dll.mui
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\lb-LU\Microsoft.ui.xaml.dll.mui
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\lb-LU\Microsoft.UI.Xaml.Phone.dll.mui
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\lo-LA\Microsoft.ui.xaml.dll.mui
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\lo-LA\Microsoft.UI.Xaml.Phone.dll.mui
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\lt-LT\Microsoft.ui.xaml.dll.mui
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\lt-LT\Microsoft.UI.Xaml.Phone.dll.mui
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\lv-LV\Microsoft.ui.xaml.dll.mui
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\lv-LV\Microsoft.UI.Xaml.Phone.dll.mui
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\mi-NZ\Microsoft.ui.xaml.dll.mui
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\mi-NZ\Microsoft.UI.Xaml.Phone.dll.mui
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\mk-MK\Microsoft.ui.xaml.dll.mui
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\mk-MK\Microsoft.UI.Xaml.Phone.dll.mui
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\ml-IN\Microsoft.ui.xaml.dll.mui
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\ml-IN\Microsoft.UI.Xaml.Phone.dll.mui
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\mr-IN\Microsoft.ui.xaml.dll.mui
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\mr-IN\Microsoft.UI.Xaml.Phone.dll.mui
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\ms-MY\Microsoft.ui.xaml.dll.mui
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\ms-MY\Microsoft.UI.Xaml.Phone.dll.mui
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\mt-MT\Microsoft.ui.xaml.dll.mui
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\mt-MT\Microsoft.UI.Xaml.Phone.dll.mui
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\nb-NO\Microsoft.ui.xaml.dll.mui
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\nb-NO\Microsoft.UI.Xaml.Phone.dll.mui
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\ne-NP\Microsoft.ui.xaml.dll.mui
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\ne-NP\Microsoft.UI.Xaml.Phone.dll.mui
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\nl-NL\Microsoft.ui.xaml.dll.mui
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\nl-NL\Microsoft.UI.Xaml.Phone.dll.mui
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\nn-NO\Microsoft.ui.xaml.dll.mui
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\nn-NO\Microsoft.UI.Xaml.Phone.dll.mui
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\or-IN\Microsoft.ui.xaml.dll.mui
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\or-IN\Microsoft.UI.Xaml.Phone.dll.mui
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\pa-IN\Microsoft.ui.xaml.dll.mui
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\pa-IN\Microsoft.UI.Xaml.Phone.dll.mui
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\pl-PL\Microsoft.ui.xaml.dll.mui
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\pl-PL\Microsoft.UI.Xaml.Phone.dll.mui
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\pt-BR\Microsoft.ui.xaml.dll.mui
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\pt-BR\Microsoft.UI.Xaml.Phone.dll.mui
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\pt-PT\Microsoft.ui.xaml.dll.mui
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\pt-PT\Microsoft.UI.Xaml.Phone.dll.mui
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\quz-PE\Microsoft.ui.xaml.dll.mui
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\quz-PE\Microsoft.UI.Xaml.Phone.dll.mui
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\ro-RO\Microsoft.ui.xaml.dll.mui
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\ro-RO\Microsoft.UI.Xaml.Phone.dll.mui
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\ru-RU\Microsoft.ui.xaml.dll.mui
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\ru-RU\Microsoft.UI.Xaml.Phone.dll.mui
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\sk-SK\Microsoft.ui.xaml.dll.mui
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\sk-SK\Microsoft.UI.Xaml.Phone.dll.mui
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\sl-SI\Microsoft.ui.xaml.dll.mui
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\sl-SI\Microsoft.UI.Xaml.Phone.dll.mui
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\sq-AL\Microsoft.ui.xaml.dll.mui
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\sq-AL\Microsoft.UI.Xaml.Phone.dll.mui
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\sr-Cyrl-BA\Microsoft.ui.xaml.dll.mui
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\sr-Cyrl-BA\Microsoft.UI.Xaml.Phone.dll.mui
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\sr-Cyrl-RS\Microsoft.ui.xaml.dll.mui
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\sr-Cyrl-RS\Microsoft.UI.Xaml.Phone.dll.mui
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\sr-Latn-RS\Microsoft.ui.xaml.dll.mui
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\sr-Latn-RS\Microsoft.UI.Xaml.Phone.dll.mui
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\sv-SE\Microsoft.ui.xaml.dll.mui
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\sv-SE\Microsoft.UI.Xaml.Phone.dll.mui
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\ta-IN\Microsoft.ui.xaml.dll.mui
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\ta-IN\Microsoft.UI.Xaml.Phone.dll.mui
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\te-IN\Microsoft.ui.xaml.dll.mui
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\te-IN\Microsoft.UI.Xaml.Phone.dll.mui
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\th-TH\Microsoft.ui.xaml.dll.mui
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\th-TH\Microsoft.UI.Xaml.Phone.dll.mui
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\tr-TR\Microsoft.ui.xaml.dll.mui
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\tr-TR\Microsoft.UI.Xaml.Phone.dll.mui
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\tt-RU\Microsoft.ui.xaml.dll.mui
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\tt-RU\Microsoft.UI.Xaml.Phone.dll.mui
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\ug-CN\Microsoft.ui.xaml.dll.mui
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\ug-CN\Microsoft.UI.Xaml.Phone.dll.mui
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\uk-UA\Microsoft.ui.xaml.dll.mui
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\uk-UA\Microsoft.UI.Xaml.Phone.dll.mui
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\ur-PK\Microsoft.ui.xaml.dll.mui
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\ur-PK\Microsoft.UI.Xaml.Phone.dll.mui
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\uz-Latn-UZ\Microsoft.ui.xaml.dll.mui
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\uz-Latn-UZ\Microsoft.UI.Xaml.Phone.dll.mui
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\vi-VN\Microsoft.ui.xaml.dll.mui
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\vi-VN\Microsoft.UI.Xaml.Phone.dll.mui
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\zh-CN\Microsoft.ui.xaml.dll.mui
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\zh-CN\Microsoft.UI.Xaml.Phone.dll.mui
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\zh-TW\Microsoft.ui.xaml.dll.mui
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\zh-TW\Microsoft.UI.Xaml.Phone.dll.mui
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Microsoft.UI.Xaml\Assets\NoiseAsset_256x256_PNG.png
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\WindowsAppRuntime.png
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Microsoft.Foundation.winmd
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Microsoft.Graphics.Imaging.winmd
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Microsoft.Graphics.ImagingInternal.winmd
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Microsoft.Graphics.Internal.Imaging.winmd
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Microsoft.Graphics.winmd
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Microsoft.Security.Authentication.OAuth.winmd
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Microsoft.UI.Text.winmd
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Microsoft.UI.winmd
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Microsoft.UI.Xaml.winmd
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Microsoft.Windows.AI.ContentModerationInternal.winmd
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Microsoft.Windows.AI.ContentSafety.winmd
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Microsoft.Windows.AI.Foundation.winmd
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Microsoft.Windows.AI.FoundationInternal.winmd
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Microsoft.Windows.AI.GenerativeInternal.winmd
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Microsoft.Windows.AI.Imaging.winmd
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Microsoft.Windows.AI.Text.winmd
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Microsoft.Windows.AI.winmd
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Microsoft.Windows.ApplicationModel.Background.UniversalBGTask.winmd
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Microsoft.Windows.ApplicationModel.Background.winmd
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Microsoft.Windows.ApplicationModel.DynamicDependency.winmd
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Microsoft.Windows.ApplicationModel.Resources.winmd
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Microsoft.Windows.ApplicationModel.WindowsAppRuntime.winmd
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Microsoft.Windows.AppLifecycle.winmd
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Microsoft.Windows.AppNotifications.Builder.winmd
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Microsoft.Windows.AppNotifications.winmd
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Microsoft.Windows.BadgeNotifications.winmd
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Microsoft.Windows.Globalization.winmd
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Microsoft.Windows.Internal.Vision.winmd
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Microsoft.Windows.Management.Deployment.winmd
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Microsoft.Windows.Media.Capture.winmd
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Microsoft.Windows.Private.Workloads.SessionManager.winmd
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Microsoft.Windows.PrivateCommon.winmd
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Microsoft.Windows.PushNotifications.winmd
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Microsoft.Windows.Security.AccessControl.winmd
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Microsoft.Windows.SemanticSearch.winmd
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Microsoft.Windows.Storage.winmd
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Microsoft.Windows.System.Power.winmd
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Microsoft.Windows.System.winmd
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Microsoft.Windows.Vision.winmd
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Microsoft.Windows.VisionInternal.winmd
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Microsoft.Windows.Widgets.winmd
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Microsoft.Windows.Workloads.winmd
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Platforms\Windows\App.xbf
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\splashSplashScreen.scale-100.png
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\splashSplashScreen.scale-125.png
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\splashSplashScreen.scale-150.png
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\splashSplashScreen.scale-200.png
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\splashSplashScreen.scale-400.png
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\dotnet_bot.scale-400.png
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\dotnet_bot.scale-200.png
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\dotnet_bot.scale-150.png
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\dotnet_bot.scale-125.png
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\dotnet_bot.scale-100.png
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\appiconLargeTile.scale-400.png
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\appiconLargeTile.scale-200.png
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\appiconLargeTile.scale-150.png
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\appiconLargeTile.scale-125.png
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\appiconLargeTile.scale-100.png
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\appiconWideTile.scale-400.png
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\appiconWideTile.scale-200.png
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\appiconWideTile.scale-150.png
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\appiconWideTile.scale-125.png
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\appiconWideTile.scale-100.png
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\appiconMediumTile.scale-400.png
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\appiconMediumTile.scale-200.png
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\appiconMediumTile.scale-150.png
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\appiconMediumTile.scale-125.png
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\appiconMediumTile.scale-100.png
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\appiconSmallTile.scale-400.png
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\appiconSmallTile.scale-200.png
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\appiconSmallTile.scale-150.png
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\appiconSmallTile.scale-125.png
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\appiconSmallTile.scale-100.png
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\appiconStoreLogo.scale-400.png
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\appiconStoreLogo.scale-200.png
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\appiconStoreLogo.scale-150.png
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\appiconStoreLogo.scale-125.png
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\appiconStoreLogo.scale-100.png
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\appiconLogo.altform-lightunplated_targetsize-256.png
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\appiconLogo.altform-lightunplated_targetsize-48.png
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\appiconLogo.altform-lightunplated_targetsize-32.png
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\appiconLogo.altform-lightunplated_targetsize-24.png
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\appiconLogo.altform-lightunplated_targetsize-16.png
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\appiconLogo.altform-unplated_targetsize-256.png
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\appiconLogo.altform-unplated_targetsize-48.png
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\appiconLogo.altform-unplated_targetsize-32.png
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\appiconLogo.altform-unplated_targetsize-24.png
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\appiconLogo.altform-unplated_targetsize-16.png
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\appiconLogo.targetsize-256.png
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\appiconLogo.targetsize-48.png
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\appiconLogo.targetsize-32.png
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\appiconLogo.targetsize-24.png
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\appiconLogo.targetsize-16.png
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\appiconLogo.scale-400.png
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\appiconLogo.scale-200.png
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\appiconLogo.scale-150.png
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\appiconLogo.scale-125.png
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\appiconLogo.scale-100.png
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\appicon.ico
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Pexel.exe
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Pexel.deps.json
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Pexel.runtimeconfig.json
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Pexel.dll
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Pexel.pdb
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\resources.pri
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Microsoft.Web.WebView2.Core.dll
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Antlr4.Runtime.Standard.dll
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Antlr4BuildTasks.dll
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Microsoft.Build.Framework.dll
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Microsoft.Build.Utilities.Core.dll
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Microsoft.Extensions.Configuration.dll
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Microsoft.Extensions.DependencyInjection.dll
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Microsoft.Extensions.Logging.dll
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Microsoft.Extensions.Logging.Abstractions.dll
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Microsoft.Extensions.Logging.Debug.dll
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Microsoft.Extensions.Options.dll
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Microsoft.Extensions.Primitives.dll
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Microsoft.Graphics.Canvas.Interop.dll
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Microsoft.IO.RecyclableMemoryStream.dll
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Microsoft.Maui.Controls.dll
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Microsoft.Maui.Controls.Xaml.dll
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Microsoft.Maui.dll
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Microsoft.Maui.Essentials.dll
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Microsoft.Maui.Graphics.dll
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Microsoft.Maui.Graphics.Win2D.WinUI.Desktop.dll
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Microsoft.NET.StringTools.dll
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Microsoft.VisualStudio.Setup.Configuration.Interop.dll
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Microsoft.Win32.SystemEvents.dll
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Microsoft.Graphics.Imaging.Projection.dll
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Microsoft.InteractiveExperiences.Projection.dll
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Microsoft.Security.Authentication.OAuth.Projection.dll
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Microsoft.WinUI.dll
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Microsoft.Windows.AI.ContentSafety.Projection.dll
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Microsoft.Windows.AI.Imaging.Projection.dll
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Microsoft.Windows.AI.Projection.dll
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Microsoft.Windows.AI.Text.Projection.dll
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Microsoft.Windows.AppLifecycle.Projection.dll
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Microsoft.Windows.AppNotifications.Builder.Projection.dll
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Microsoft.Windows.AppNotifications.Projection.dll
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Microsoft.Windows.ApplicationModel.Background.Projection.dll
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Microsoft.Windows.ApplicationModel.DynamicDependency.Projection.dll
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Microsoft.Windows.ApplicationModel.Resources.Projection.dll
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Microsoft.Windows.ApplicationModel.WindowsAppRuntime.Projection.dll
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Microsoft.Windows.BadgeNotifications.Projection.dll
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Microsoft.Windows.Management.Deployment.Projection.dll
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Microsoft.Windows.Media.Capture.Projection.dll
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Microsoft.Windows.PushNotifications.Projection.dll
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Microsoft.Windows.Security.AccessControl.Projection.dll
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Microsoft.Windows.Storage.Projection.dll
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Microsoft.Windows.System.Power.Projection.dll
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Microsoft.Windows.System.Projection.dll
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Microsoft.Windows.Widgets.Projection.dll
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Microsoft.WindowsAppRuntime.Bootstrap.Net.dll
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\System.Configuration.ConfigurationManager.dll
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\System.Diagnostics.EventLog.Messages.dll
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\System.Diagnostics.EventLog.dll
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\System.Drawing.Common.dll
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\System.Security.Cryptography.ProtectedData.dll
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\System.Security.Permissions.dll
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\System.Windows.Extensions.dll
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\ar\Microsoft.Maui.Controls.resources.dll
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\ca\Microsoft.Maui.Controls.resources.dll
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\cs\Microsoft.Maui.Controls.resources.dll
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\da\Microsoft.Maui.Controls.resources.dll
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\de\Microsoft.Maui.Controls.resources.dll
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\el\Microsoft.Maui.Controls.resources.dll
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\es\Microsoft.Maui.Controls.resources.dll
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\fi\Microsoft.Maui.Controls.resources.dll
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\fr\Microsoft.Maui.Controls.resources.dll
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\he\Microsoft.Maui.Controls.resources.dll
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\hi\Microsoft.Maui.Controls.resources.dll
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\hr\Microsoft.Maui.Controls.resources.dll
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\hu\Microsoft.Maui.Controls.resources.dll
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\id\Microsoft.Maui.Controls.resources.dll
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\it\Microsoft.Maui.Controls.resources.dll
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\ja\Microsoft.Maui.Controls.resources.dll
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\ko\Microsoft.Maui.Controls.resources.dll
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\ms\Microsoft.Maui.Controls.resources.dll
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\nb\Microsoft.Maui.Controls.resources.dll
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\nl\Microsoft.Maui.Controls.resources.dll
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\pl\Microsoft.Maui.Controls.resources.dll
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\pt-BR\Microsoft.Maui.Controls.resources.dll
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\pt\Microsoft.Maui.Controls.resources.dll
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\ro\Microsoft.Maui.Controls.resources.dll
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\ru\Microsoft.Maui.Controls.resources.dll
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\sk\Microsoft.Maui.Controls.resources.dll
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\sv\Microsoft.Maui.Controls.resources.dll
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\th\Microsoft.Maui.Controls.resources.dll
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\tr\Microsoft.Maui.Controls.resources.dll
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\uk\Microsoft.Maui.Controls.resources.dll
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\vi\Microsoft.Maui.Controls.resources.dll
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\zh-HK\Microsoft.Maui.Controls.resources.dll
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\zh-Hans\Microsoft.Maui.Controls.resources.dll
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\zh-Hant\Microsoft.Maui.Controls.resources.dll
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Microsoft.Graphics.Canvas.dll
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\WebView2Loader.dll
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Microsoft.Windows.ApplicationModel.Background.UniversalBGTask.dll
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Microsoft.WindowsAppRuntime.Bootstrap.dll
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Microsoft.Windows.SDK.NET.dll
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\WinRT.Runtime.dll
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Microsoft.Web.WebView2.Core.Projection.dll
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Microsoft.UI.pri
+D:\Lab1\Pexel\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Microsoft.UI.Xaml.Controls.pri
+D:\Lab1\Pexel\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-100.png
+D:\Lab1\Pexel\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-125.png
+D:\Lab1\Pexel\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-150.png
+D:\Lab1\Pexel\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-200.png
+D:\Lab1\Pexel\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-400.png
+D:\Lab1\Pexel\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\mauisplash.stamp
+D:\Lab1\Pexel\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\mauifont.stamp
+D:\Lab1\Pexel\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Regular.ttf
+D:\Lab1\Pexel\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Semibold.ttf
+D:\Lab1\Pexel\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-400.png
+D:\Lab1\Pexel\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-200.png
+D:\Lab1\Pexel\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-150.png
+D:\Lab1\Pexel\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-125.png
+D:\Lab1\Pexel\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-100.png
+D:\Lab1\Pexel\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-400.png
+D:\Lab1\Pexel\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-200.png
+D:\Lab1\Pexel\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-150.png
+D:\Lab1\Pexel\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-125.png
+D:\Lab1\Pexel\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-100.png
+D:\Lab1\Pexel\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-400.png
+D:\Lab1\Pexel\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-200.png
+D:\Lab1\Pexel\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-150.png
+D:\Lab1\Pexel\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-125.png
+D:\Lab1\Pexel\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-100.png
+D:\Lab1\Pexel\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-400.png
+D:\Lab1\Pexel\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-200.png
+D:\Lab1\Pexel\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-150.png
+D:\Lab1\Pexel\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-125.png
+D:\Lab1\Pexel\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-100.png
+D:\Lab1\Pexel\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-400.png
+D:\Lab1\Pexel\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-200.png
+D:\Lab1\Pexel\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-150.png
+D:\Lab1\Pexel\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-125.png
+D:\Lab1\Pexel\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-100.png
+D:\Lab1\Pexel\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-400.png
+D:\Lab1\Pexel\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-200.png
+D:\Lab1\Pexel\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-150.png
+D:\Lab1\Pexel\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-125.png
+D:\Lab1\Pexel\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-100.png
+D:\Lab1\Pexel\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-256.png
+D:\Lab1\Pexel\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-48.png
+D:\Lab1\Pexel\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-32.png
+D:\Lab1\Pexel\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-24.png
+D:\Lab1\Pexel\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-16.png
+D:\Lab1\Pexel\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-256.png
+D:\Lab1\Pexel\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-48.png
+D:\Lab1\Pexel\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-32.png
+D:\Lab1\Pexel\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-24.png
+D:\Lab1\Pexel\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-16.png
+D:\Lab1\Pexel\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-256.png
+D:\Lab1\Pexel\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-48.png
+D:\Lab1\Pexel\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-32.png
+D:\Lab1\Pexel\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-24.png
+D:\Lab1\Pexel\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-16.png
+D:\Lab1\Pexel\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-400.png
+D:\Lab1\Pexel\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-200.png
+D:\Lab1\Pexel\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-150.png
+D:\Lab1\Pexel\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-125.png
+D:\Lab1\Pexel\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-100.png
+D:\Lab1\Pexel\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon.ico
+D:\Lab1\Pexel\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\mauiimage.stamp
+D:\Lab1\Pexel\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\mauiimage.outputs
+D:\Lab1\Pexel\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\Pexel.AssemblyInfoInputs.cache
+D:\Lab1\Pexel\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\Pexel.AssemblyInfo.cs
+D:\Lab1\Pexel\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\Pexel.csproj.CoreCompileInputs.cache
+D:\Lab1\Pexel\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\Pexel.sourcelink.json
+D:\Lab1\Pexel\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\XamlC.stamp
+D:\Lab1\Pexel\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\Pexel.csproj.Up2Date
+D:\Lab1\Pexel\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\Pexel.dll
+D:\Lab1\Pexel\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\refint\Pexel.dll
+D:\Lab1\Pexel\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\Pexel.pdb
+D:\Lab1\Pexel\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\Pexel.genruntimeconfig.cache
+D:\Lab1\Pexel\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\ref\Pexel.dll
+D:\Lab1\Pexel\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\priconfig.xml
+D:\Lab1\Pexel\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\priconfig.xml.intermediate
+D:\Lab1\Pexel\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\unfiltered.layout.resfiles
+D:\Lab1\Pexel\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\unfiltered.layout.resfiles.intermediate
+D:\Lab1\Pexel\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\filtered.layout.resfiles
+D:\Lab1\Pexel\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\filtered.layout.resfiles.intermediate
+D:\Lab1\Pexel\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\excluded.layout.resfiles
+D:\Lab1\Pexel\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\excluded.layout.resfiles.intermediate
+D:\Lab1\Pexel\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resources.resfiles
+D:\Lab1\Pexel\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resources.resfiles.intermediate
+D:\Lab1\Pexel\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\pri.resfiles
+D:\Lab1\Pexel\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\pri.resfiles.intermediate
+D:\Lab1\Pexel\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\qualifiers.txt
+D:\Lab1\Pexel\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\qualifiers.txt.intermediate
+D:\Lab1\Pexel\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\MultipleQualifiersPerDimensionFound.txt
