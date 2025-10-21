@@ -10,8 +10,8 @@
         <HorizontalStackLayout Grid.Row="0" Spacing="8" HorizontalOptions="Center">
             <Button Text="➕ Додати рядок" Clicked="AddRow_Clicked" Style="{StaticResource ToolbarButton}" />
             <Button Text="➕ Додати стовпчик" Clicked="AddColumn_Clicked" Style="{StaticResource ToolbarButton}" />
-            <Button Text="Видалити рядок" Clicked="DeleteRow_Clicked" Style="{StaticResource ToolbarButton}"/>
-            <Button Text="Видалити стовпчик" Clicked="DeleteColumn_Clicked" Style="{StaticResource ToolbarButton}"/>
+            <Button Text="- Видалити рядок" Clicked="DeleteRow_Clicked" Style="{StaticResource ToolbarButton}"/>
+            <Button Text="- Видалити стовпчик" Clicked="DeleteColumn_Clicked" Style="{StaticResource ToolbarButton}"/>
             <Button Text="💾 Зберегти" Clicked="OnSaveClicked" Style="{StaticResource ToolbarButton}" />
             <Button Text="📂 Завантажити" Clicked="OnLoadClicked" Style="{StaticResource ToolbarButton}" />
             <Button Text="ℹ️ Про програму" Clicked="OnAboutClicked" Style="{StaticResource ToolbarButton}" />

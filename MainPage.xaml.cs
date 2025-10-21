@@ -34,17 +34,14 @@ public partial class MainPage : ContentPage
         dataGrid.RowDefinitions.Clear();
         dataGrid.ColumnDefinitions.Clear();
 
-        // Додаємо рядок заголовків
         dataGrid.RowDefinitions.Add(new RowDefinition { Height = CellHeight });
         for (int r = 0; r < sheet.RowCount; r++)
             dataGrid.RowDefinitions.Add(new RowDefinition { Height = CellHeight });
 
-        // Додаємо першу колонку для номерів рядків
         dataGrid.ColumnDefinitions.Add(new ColumnDefinition { Width = 60 });
         for (int c = 0; c < sheet.ColumnCount; c++)
             dataGrid.ColumnDefinitions.Add(new ColumnDefinition { Width = CellWidth });
 
-        // Заголовки колонок
         for (int c = 0; c < sheet.ColumnCount; c++)
         {
             var headerLabel = new Label
@@ -57,10 +54,8 @@ public partial class MainPage : ContentPage
             dataGrid.Add(headerLabel, c + 1, 0);
         }
 
-        // Рядки та клітинки
         for (int r = 0; r < sheet.RowCount; r++)
         {
-            // Номер рядка
             var rowLabel = new Label
             {
                 Text = (r + 1).ToString(),

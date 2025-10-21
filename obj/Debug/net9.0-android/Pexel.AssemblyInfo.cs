@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Pexel")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+8adf1d85bf6bca67179553cf24638bfc6e575ab1")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+ae7f8c559bb69a7dec4a872d9088f6bd2ca9e7f2")]
 [assembly: System.Reflection.AssemblyProductAttribute("Pexel")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Pexel")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
