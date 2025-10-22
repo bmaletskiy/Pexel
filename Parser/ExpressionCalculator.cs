@@ -29,6 +29,8 @@ namespace Pexel.ExpressionLogic
             parser.RemoveErrorListeners();
             parser.AddErrorListener(new ThrowExceptionErrorListener());
 
+            parser.ErrorHandler = new Antlr4.Runtime.BailErrorStrategy();
+
             var tree = parser.compileUnit();
             var visited = new HashSet<string>();
             var visitor = new PexelExpressionVisitor(_sheet, visited);

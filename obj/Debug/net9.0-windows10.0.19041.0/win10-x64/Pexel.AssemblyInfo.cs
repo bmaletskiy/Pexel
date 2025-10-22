@@ -17,7 +17,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Pexel")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+ae7f8c559bb69a7dec4a872d9088f6bd2ca9e7f2")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+1a049a16cab23ad09bafc1c094b2240768fd88bd")]
 [assembly: System.Reflection.AssemblyProductAttribute("Pexel")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Pexel")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

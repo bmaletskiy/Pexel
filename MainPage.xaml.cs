@@ -14,6 +14,7 @@ public partial class MainPage : ContentPage
 
     private const int CellWidth = 120;
     private const int CellHeight = 50;
+    private const int AlphabetLength = 26;
 
     public MainPage()
     {
@@ -106,11 +107,10 @@ public partial class MainPage : ContentPage
                 overlay.GestureRecognizers.Add(tap);
 
                 // Завершення редагування
-                entry.Unfocused += (s, ea) =>
+                entry.Unfocused += async (s, ea) =>
                 {
-                    cell.Write(entry.Text);
+                    cell.Write(entry.Text, _viewModel.CurrentSheet);
                     cell.CalculateValue(_viewModel.CurrentSheet);
-
                     entry.IsVisible = false;
                     valueLabel.IsVisible = true;
                     valueLabel.Text = cell.ShowUnfocused();
@@ -118,10 +118,11 @@ public partial class MainPage : ContentPage
 
                 entry.Completed += (s, ea) =>
                 {
-                    cell.Write(entry.Text);
+                    cell.Write(entry.Text, _viewModel.CurrentSheet);
                     cell.CalculateValue(_viewModel.CurrentSheet);
 
                     entry.Unfocus();
+                    BuildGridUI();
                 };
 
                 var border = new Border { Stroke = Colors.LightGray, StrokeThickness = 1, Content = overlay };
@@ -136,9 +137,9 @@ public partial class MainPage : ContentPage
         int col = index + 1;
         while (col > 0)
         {
-            int rem = (col - 1) % 26;
+            int rem = (col - 1) % AlphabetLength;
             s = (char)('A' + rem) + s;
-            col = (col - 1) / 26;
+            col = (col - 1) / AlphabetLength;
         }
         return s;
     }

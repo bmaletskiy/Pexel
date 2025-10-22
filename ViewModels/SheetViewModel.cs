@@ -88,7 +88,7 @@ namespace Pexel.ViewModels
 
             foreach (var sc in items)
             {
-                CurrentSheet.Cells[sc.Row][sc.Col].Write(sc.Content);
+                CurrentSheet.Cells[sc.Row][sc.Col].Write(sc.Content, CurrentSheet);
             }
         }
 
