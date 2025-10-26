@@ -62,7 +62,12 @@ namespace Pexel.models
             {
                 var calculator = new ExpressionCalculator(sheet);
                 double result = calculator.Evaluate(formula);
-                Value = result.ToString(System.Globalization.CultureInfo.InvariantCulture);
+                if (Math.Abs(result - 1.0) < 0.000001)
+                    Value = "True";
+                else if (Math.Abs(result - 0.0) < 0.000001)
+                    Value = "False";
+                else
+                    Value = result.ToString(System.Globalization.CultureInfo.InvariantCulture);
             }
             catch (Exception ex)
             {

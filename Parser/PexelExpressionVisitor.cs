@@ -176,7 +176,7 @@ namespace Pexel.ExpressionLogic
                 case LabCalculatorLexer.NOTEQUAL: result = Math.Abs(left - right) >= epsilon; break;
                 default: throw new ArgumentOutOfRangeException("Невідомий оператор порівняння");
             }
-            return result ? double.PositiveInfinity : double.NegativeInfinity;
+            return result ? 1.0 : 0.0;
         }
 
         private double WalkLeft(LabCalculatorParser.ExpressionContext context)

@@ -103,14 +103,6 @@ public class LabCalculatorParser extends Parser {
 			super(parent, invokingState);
 		}
 		@Override public int getRuleIndex() { return RULE_compileUnit; }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof LabCalculatorListener ) ((LabCalculatorListener)listener).enterCompileUnit(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof LabCalculatorListener ) ((LabCalculatorListener)listener).exitCompileUnit(this);
-		}
 	}
 
 	public final CompileUnitContext compileUnit() throws RecognitionException {
@@ -162,14 +154,6 @@ public class LabCalculatorParser extends Parser {
 		public TerminalNode MOD() { return getToken(LabCalculatorParser.MOD, 0); }
 		public TerminalNode DIV() { return getToken(LabCalculatorParser.DIV, 0); }
 		public MultiplicativeExprContext(ExpressionContext ctx) { copyFrom(ctx); }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof LabCalculatorListener ) ((LabCalculatorListener)listener).enterMultiplicativeExpr(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof LabCalculatorListener ) ((LabCalculatorListener)listener).exitMultiplicativeExpr(this);
-		}
 	}
 	@SuppressWarnings("CheckReturnValue")
 	public static class ExponentialExprContext extends ExpressionContext {
@@ -181,14 +165,6 @@ public class LabCalculatorParser extends Parser {
 		}
 		public TerminalNode EXPONENT() { return getToken(LabCalculatorParser.EXPONENT, 0); }
 		public ExponentialExprContext(ExpressionContext ctx) { copyFrom(ctx); }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof LabCalculatorListener ) ((LabCalculatorListener)listener).enterExponentialExpr(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof LabCalculatorListener ) ((LabCalculatorListener)listener).exitExponentialExpr(this);
-		}
 	}
 	@SuppressWarnings("CheckReturnValue")
 	public static class AdditiveExprContext extends ExpressionContext {
@@ -202,27 +178,11 @@ public class LabCalculatorParser extends Parser {
 		public TerminalNode ADD() { return getToken(LabCalculatorParser.ADD, 0); }
 		public TerminalNode SUBTRACT() { return getToken(LabCalculatorParser.SUBTRACT, 0); }
 		public AdditiveExprContext(ExpressionContext ctx) { copyFrom(ctx); }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof LabCalculatorListener ) ((LabCalculatorListener)listener).enterAdditiveExpr(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof LabCalculatorListener ) ((LabCalculatorListener)listener).exitAdditiveExpr(this);
-		}
 	}
 	@SuppressWarnings("CheckReturnValue")
 	public static class NumberExprContext extends ExpressionContext {
 		public TerminalNode NUMBER() { return getToken(LabCalculatorParser.NUMBER, 0); }
 		public NumberExprContext(ExpressionContext ctx) { copyFrom(ctx); }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof LabCalculatorListener ) ((LabCalculatorListener)listener).enterNumberExpr(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof LabCalculatorListener ) ((LabCalculatorListener)listener).exitNumberExpr(this);
-		}
 	}
 	@SuppressWarnings("CheckReturnValue")
 	public static class ComparisonExprContext extends ExpressionContext {
@@ -240,27 +200,11 @@ public class LabCalculatorParser extends Parser {
 		public TerminalNode GREATEREQUAL() { return getToken(LabCalculatorParser.GREATEREQUAL, 0); }
 		public TerminalNode NOTEQUAL() { return getToken(LabCalculatorParser.NOTEQUAL, 0); }
 		public ComparisonExprContext(ExpressionContext ctx) { copyFrom(ctx); }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof LabCalculatorListener ) ((LabCalculatorListener)listener).enterComparisonExpr(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof LabCalculatorListener ) ((LabCalculatorListener)listener).exitComparisonExpr(this);
-		}
 	}
 	@SuppressWarnings("CheckReturnValue")
 	public static class IdentifierExprContext extends ExpressionContext {
 		public TerminalNode IDENTIFIER() { return getToken(LabCalculatorParser.IDENTIFIER, 0); }
 		public IdentifierExprContext(ExpressionContext ctx) { copyFrom(ctx); }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof LabCalculatorListener ) ((LabCalculatorListener)listener).enterIdentifierExpr(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof LabCalculatorListener ) ((LabCalculatorListener)listener).exitIdentifierExpr(this);
-		}
 	}
 	@SuppressWarnings("CheckReturnValue")
 	public static class UnaryPlusExprContext extends ExpressionContext {
@@ -269,14 +213,6 @@ public class LabCalculatorParser extends Parser {
 			return getRuleContext(ExpressionContext.class,0);
 		}
 		public UnaryPlusExprContext(ExpressionContext ctx) { copyFrom(ctx); }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof LabCalculatorListener ) ((LabCalculatorListener)listener).enterUnaryPlusExpr(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof LabCalculatorListener ) ((LabCalculatorListener)listener).exitUnaryPlusExpr(this);
-		}
 	}
 	@SuppressWarnings("CheckReturnValue")
 	public static class ParenthesizedExprContext extends ExpressionContext {
@@ -286,14 +222,6 @@ public class LabCalculatorParser extends Parser {
 		}
 		public TerminalNode RPAREN() { return getToken(LabCalculatorParser.RPAREN, 0); }
 		public ParenthesizedExprContext(ExpressionContext ctx) { copyFrom(ctx); }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof LabCalculatorListener ) ((LabCalculatorListener)listener).enterParenthesizedExpr(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof LabCalculatorListener ) ((LabCalculatorListener)listener).exitParenthesizedExpr(this);
-		}
 	}
 	@SuppressWarnings("CheckReturnValue")
 	public static class UnaryMinusExprContext extends ExpressionContext {
@@ -302,14 +230,6 @@ public class LabCalculatorParser extends Parser {
 			return getRuleContext(ExpressionContext.class,0);
 		}
 		public UnaryMinusExprContext(ExpressionContext ctx) { copyFrom(ctx); }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof LabCalculatorListener ) ((LabCalculatorListener)listener).enterUnaryMinusExpr(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof LabCalculatorListener ) ((LabCalculatorListener)listener).exitUnaryMinusExpr(this);
-		}
 	}
 
 	public final ExpressionContext expression() throws RecognitionException {
