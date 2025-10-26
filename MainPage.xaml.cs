@@ -12,8 +12,8 @@ public partial class MainPage : ContentPage
 {
     private SheetViewModel _viewModel;
 
-    private const int CellWidth = 120;
-    private const int CellHeight = 50;
+    private const int CellWidth = 160;
+    private const int CellHeight = 40;
     private const int AlphabetLength = 26;
 
     public MainPage()

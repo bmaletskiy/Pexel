@@ -51,16 +51,21 @@ namespace Pexel.models
 
         public void RemoveRow()
         {
-            if (RowCount > 0)
-                _cells.RemoveAt(RowCount - 1); // видаляємо останній рядок
+            if (RowCount <= 1)
+                return; 
+
+            _cells.RemoveAt(RowCount - 1);
         }
 
         public void RemoveColumn()
         {
-            if (ColumnCount > 0)
+            if (ColumnCount <= 1)
+                return; 
+
+            for (int r = 0; r < RowCount; r++)
             {
-                for (int r = 0; r < RowCount; r++)
-                    _cells[r].RemoveAt(ColumnCount - 1); // видаляємо останню колонку
+                if (_cells[r].Count > 0)
+                    _cells[r].RemoveAt(_cells[r].Count - 1);
             }
         }
 
