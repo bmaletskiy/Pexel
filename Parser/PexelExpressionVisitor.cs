@@ -43,8 +43,14 @@ namespace Pexel.ExpressionLogic
                 {
                     Pexel.models.Cell targetCell = _sheet.Cells[row][col];
                     string key = $"{row},{col}";
+
                     if (_visited!.Contains(key))
                         throw new Exception($"Циклічне посилання на клітинку {identifierName}");
+
+                    if (string.IsNullOrWhiteSpace(targetCell.Expression) && string.IsNullOrWhiteSpace(targetCell.Value))
+                    {
+                        return 0.0;
+                    }
 
                     if (string.IsNullOrEmpty(targetCell.Value) && !string.IsNullOrEmpty(targetCell.Expression))
                     {
@@ -66,15 +72,21 @@ namespace Pexel.ExpressionLogic
                         }
                     }
 
-                    if (string.IsNullOrWhiteSpace(targetCell.Expression))
+                    if (string.IsNullOrWhiteSpace(targetCell.Value))
+                        return 0.0;
+
+                    if (targetCell.Value.Equals("TRUE", StringComparison.OrdinalIgnoreCase))
+                        return 1.0;
+                    if (targetCell.Value.Equals("FALSE", StringComparison.OrdinalIgnoreCase))
                         return 0.0;
 
                     if (double.TryParse(targetCell.Value, out double cellValue))
                         return cellValue;
-                    else if (targetCell.Value.StartsWith("#"))
+
+                    if (targetCell.Value.StartsWith("#"))
                         throw new Exception($"Посилання на комірку з помилкою {identifierName} ('{targetCell.Value}')");
-                    else
-                        throw new Exception($"Значення комірки {identifierName} ('{targetCell.Value}') не є числом.");
+
+                    throw new Exception($"Значення комірки {identifierName} ('{targetCell.Value}') не є числом.");
                 }
                 else
                 {
@@ -87,6 +99,8 @@ namespace Pexel.ExpressionLogic
                 throw;
             }
         }
+
+
 
         public override double VisitParenthesizedExpr(LabCalculatorParser.ParenthesizedExprContext context)
         {
