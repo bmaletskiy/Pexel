@@ -15,6 +15,9 @@ namespace Pexel.ExpressionLogic
         }
 
         public double Evaluate(string expression)
+            => Evaluate(expression, new HashSet<string>());
+
+        public double Evaluate(string expression, HashSet<string> visited)
         {
             if (string.IsNullOrEmpty(expression))
                 return 0.0;
@@ -28,11 +31,9 @@ namespace Pexel.ExpressionLogic
             var parser = new LabCalculatorParser(tokens);
             parser.RemoveErrorListeners();
             parser.AddErrorListener(new ThrowExceptionErrorListener());
-
             parser.ErrorHandler = new Antlr4.Runtime.BailErrorStrategy();
 
             var tree = parser.compileUnit();
-            var visited = new HashSet<string>();
             var visitor = new PexelExpressionVisitor(_sheet, visited);
             return visitor.Visit(tree);
         }

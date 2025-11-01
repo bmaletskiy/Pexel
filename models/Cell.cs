@@ -28,7 +28,7 @@ namespace Pexel.models
                 Expression = null;
                 Value = null;
                 Dependencies.Clear();
-                RecalculateDependents(sheet); 
+                RecalculateDependents(sheet);
                 return;
             }
 
@@ -36,12 +36,9 @@ namespace Pexel.models
 
             UpdateDependencies(sheet);
             CalculateValue(sheet);
-            RecalculateDependents(sheet); 
+            RecalculateDependents(sheet);
         }
 
-
-
-        // Обчислити значення клітинки на основі Expression
         public void CalculateValue(Sheet sheet)
         {
             if (string.IsNullOrWhiteSpace(Expression))
@@ -61,33 +58,28 @@ namespace Pexel.models
             try
             {
                 var calculator = new ExpressionCalculator(sheet);
-                double result = calculator.Evaluate(formula);
-
-                if (double.IsNaN(result))
-                {
-                    Value = "0";
-                }
-
-                else if (formula.Contains("<") || formula.Contains(">") || formula.Contains("="))
-                {
-                    if (Math.Abs(result - 1.0) < 0.000001)
-                        Value = "True";
-                    else
-                        Value = "False";
-                }
-
-                else
-                {
-                    Value = result.ToString(System.Globalization.CultureInfo.InvariantCulture);
-                }
+                var visited = new HashSet<string> { Id.ToUpper() };
+                double result = calculator.Evaluate(formula, visited);
+                Value = ConvertResultToDisplayValue(result, formula);
             }
             catch (Exception ex)
             {
                 Value = "#ERR: " + ex.Message;
             }
 
+            RecalculateDependents(sheet);
         }
 
+        private string ConvertResultToDisplayValue(double result, string formula)
+        {
+            if (double.IsNaN(result))
+                return "0";
+
+            if (formula.Contains("<") || formula.Contains(">") || formula.Contains("="))
+                return Math.Abs(result - 1.0) < 1e-9 ? "True" : "False";
+
+            return result.ToString(System.Globalization.CultureInfo.InvariantCulture);
+        }
         public void UpdateDependencies(Sheet sheet)
         {
             // видаляємо старі залежності
@@ -106,6 +98,11 @@ namespace Pexel.models
             foreach (System.Text.RegularExpressions.Match match in matches)
             {
                 string depId = match.Value;
+                if (depId.Equals(Id, StringComparison.OrdinalIgnoreCase))
+                {
+                    Value = "#ERR: Self reference";
+                    return;
+                }
                 Dependencies.Add(depId);
 
                 var depCell = sheet.GetCellById(depId);
@@ -118,7 +115,7 @@ namespace Pexel.models
         {
             visited ??= new HashSet<string>();
             if (visited.Contains(Id))
-                return; // щоб уникнути циклу
+                return;
             visited.Add(Id);
 
             foreach (var dependentId in DependentCells)
@@ -127,7 +124,7 @@ namespace Pexel.models
                 if (depCell == null) continue;
 
                 depCell.CalculateValue(sheet);
-                depCell.RecalculateDependents(sheet, visited); // рекурсія
+                depCell.RecalculateDependents(sheet, visited);
             }
         }
 

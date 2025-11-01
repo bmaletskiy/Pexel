@@ -52,21 +52,23 @@ namespace Pexel.models
         public void RemoveRow()
         {
             if (RowCount <= 1)
-                return; 
+                return;
 
             _cells.RemoveAt(RowCount - 1);
+
         }
 
         public void RemoveColumn()
         {
             if (ColumnCount <= 1)
-                return; 
+                return;
 
             for (int r = 0; r < RowCount; r++)
             {
                 if (_cells[r].Count > 0)
                     _cells[r].RemoveAt(_cells[r].Count - 1);
             }
+
         }
 
 
