@@ -10,8 +10,8 @@ namespace Pexel.models
         public string? Expression { get; set; }
         public string? Value { get; set; }
 
-        public List<string> DependentCells { get; } = new List<string>();
-        public List<string> Dependencies { get; } = new List<string>();
+        public List<string> DependentCells { get; } = new List<string>(); // Список комірок, які залежать від даної комірки.
+        public List<string> Dependencies { get; } = new List<string>();  // Список комірок, від яких залежить дана комірка.
 
         public Cell(string id)
         {

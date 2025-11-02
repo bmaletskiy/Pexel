@@ -80,6 +80,10 @@ namespace Pexel.ViewModels
             var items = JsonSerializer.Deserialize<List<SimpleCell>>(json);
             if (items == null) return;
 
+            for (int r = 0; r < CurrentSheet.RowCount; r++)
+                for (int c = 0; c < CurrentSheet.ColumnCount; c++)
+                    CurrentSheet.Cells[r][c].Write("", CurrentSheet);
+
             int maxRow = items.Count > 0 ? items.Max(i => i.Row) + 1 : CurrentSheet.RowCount;
             int maxCol = items.Count > 0 ? items.Max(i => i.Col) + 1 : CurrentSheet.ColumnCount;
 
@@ -87,9 +91,7 @@ namespace Pexel.ViewModels
             while (CurrentSheet.ColumnCount < maxCol) CurrentSheet.AddColumn();
 
             foreach (var sc in items)
-            {
                 CurrentSheet.Cells[sc.Row][sc.Col].Write(sc.Content, CurrentSheet);
-            }
         }
 
         private class SimpleCell

@@ -175,23 +175,55 @@ public partial class MainPage : ContentPage
 
     private async void OnSaveClicked(object sender, EventArgs e)
     {
-        string path = Path.Combine(FileSystem.AppDataDirectory, "sheet.json");
+        string time = DateTime.Now.ToString("HHmmss");
+        string fileName = $"sheet_{time}.json";
+
+        string path = Path.Combine(FileSystem.AppDataDirectory, fileName);
+
         _viewModel.SaveToFile(path);
-        await DisplayAlert("Збережено", $"Файл збережено до {path}", "OK");
+
+        await DisplayAlert("Збережено", $"Файл збережено як:\n{fileName}", "OK");
     }
 
     private async void OnLoadClicked(object sender, EventArgs e)
     {
-        string path = Path.Combine(FileSystem.AppDataDirectory, "sheet.json");
-        _viewModel.LoadFromFile(path);
-        _viewModel.RecalculateAll();
-        BuildGridUI();
-        await DisplayAlert("Завантажено", $"Файл завантажено з {path}", "OK");
+        string folder = FileSystem.AppDataDirectory;
+
+        var files = Directory.GetFiles(folder, "*.json");
+
+        if (files.Length == 0)
+        {
+            await DisplayAlert("Немає файлів", "Список збережених таблиць порожній.", "OK");
+            return;
+        }
+
+        string file = await DisplayActionSheet(
+            "Виберіть файл таблиці:", "Скасувати", null,
+            files.Select(Path.GetFileName).ToArray()
+        );
+
+        if (file == "Скасувати" || string.IsNullOrEmpty(file))
+            return;
+
+        string path = Path.Combine(folder, file);
+
+        try
+        {
+            _viewModel.LoadFromFile(path);
+            _viewModel.RecalculateAll();
+            BuildGridUI();
+            await DisplayAlert("Завантажено", $"Файл: {file}", "OK");
+        }
+        catch (Exception ex)
+        {
+            await DisplayAlert("Помилка", ex.Message, "OK");
+        }
     }
+
 
     private async void OnAboutClicked(object sender, EventArgs e)
     {
-        await DisplayAlert("Про програму", "Pexel — простий редактор електронних таблиць з підтримкою арифметичних виразів. Інтерфейс українською.", "OK");
+        await DisplayAlert("Про програму", "Pexel — простий редактор електронних таблиць з підтримкою арифметичних виразів. Автор програми - Малецький Богдан", "OK");
     }
 
     private async void OnExitClicked(object sender, EventArgs e)
