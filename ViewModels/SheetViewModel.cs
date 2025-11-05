@@ -63,7 +63,6 @@ namespace Pexel.ViewModels
                 {
                     var cell = CurrentSheet.Cells[r][c];
                     string content = cell.ShowFocused();
-                    if (!string.IsNullOrEmpty(content))
                         simple.Add(new { Row = r, Col = c, Content = content });
                 }
             }
@@ -87,8 +86,7 @@ namespace Pexel.ViewModels
             int maxRow = items.Count > 0 ? items.Max(i => i.Row) + 1 : CurrentSheet.RowCount;
             int maxCol = items.Count > 0 ? items.Max(i => i.Col) + 1 : CurrentSheet.ColumnCount;
 
-            while (CurrentSheet.RowCount < maxRow) CurrentSheet.AddRow();
-            while (CurrentSheet.ColumnCount < maxCol) CurrentSheet.AddColumn();
+           CurrentSheet=new Sheet(maxRow, maxCol);
 
             foreach (var sc in items)
                 CurrentSheet.Cells[sc.Row][sc.Col].Write(sc.Content, CurrentSheet);
