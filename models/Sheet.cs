@@ -27,6 +27,26 @@ namespace Pexel.models
         public int RowCount => _cells.Count;
         public int ColumnCount => RowCount > 0 ? _cells[0].Count : 0;
 
+        private void UpdateAllDependencies()
+{
+            // Спочатку оновлюємо значення всіх клітинок
+            foreach (var row in _cells)
+            {
+                foreach (var cell in row)
+                {
+                    cell.CalculateValue(this);
+                }
+            }
+
+            // Потім перераховуємо залежності
+            foreach (var row in _cells)
+            {
+                foreach (var cell in row)
+                {
+                    cell.RecalculateDependents(this);
+                }
+            }
+        }
         public void AddRow()
         {
             int newRowIdx = RowCount;
@@ -37,6 +57,7 @@ namespace Pexel.models
                 newRow.Add(new Cell(id));
             }
             _cells.Add(newRow);
+            UpdateAllDependencies();
         }
 
         public void AddColumn()
@@ -47,6 +68,7 @@ namespace Pexel.models
                 string id = GetCellId(r, newColIdx);
                 _cells[r].Add(new Cell(id));
             }
+            UpdateAllDependencies();
         }
 
         public void RemoveRow()
@@ -55,7 +77,7 @@ namespace Pexel.models
                 return;
 
             _cells.RemoveAt(RowCount - 1);
-
+            UpdateAllDependencies();
         }
 
         public void RemoveColumn()
@@ -68,7 +90,7 @@ namespace Pexel.models
                 if (_cells[r].Count > 0)
                     _cells[r].RemoveAt(_cells[r].Count - 1);
             }
-
+            UpdateAllDependencies();
         }
 
 

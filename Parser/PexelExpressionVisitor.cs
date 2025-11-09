@@ -37,41 +37,43 @@ namespace Pexel.ExpressionLogic
                 if (row < 0 || row >= _sheet.RowCount || col < 0 || col >= _sheet.ColumnCount)
                     throw new Exception($"Посилання на неіснуючу комірку: {identifierName}");
 
+                // Перевіряємо циклічне посилання
                 if (_visited.Contains(identifierName))
-                    throw new Exception($"Циклічне посилання на клітинку {identifierName}");
+                    throw new Exception($"Циклічне посилання виявлено в комірці {identifierName}");
 
                 CellModel targetCell = _sheet.Cells[row][col];
 
                 if (string.IsNullOrWhiteSpace(targetCell.Expression) && string.IsNullOrWhiteSpace(targetCell.Value))
                     return 0.0;
 
-                if (string.IsNullOrEmpty(targetCell.Value) && !string.IsNullOrEmpty(targetCell.Expression))
+                _visited.Add(identifierName);
+                try
                 {
-                    _visited.Add(identifierName);
-                    try
+                    if (string.IsNullOrEmpty(targetCell.Value) && !string.IsNullOrEmpty(targetCell.Expression))
                     {
                         var calculator = new ExpressionCalculator(_sheet);
                         double val = calculator.Evaluate(targetCell.Expression, _visited);
                         targetCell.Value = val.ToString(System.Globalization.CultureInfo.InvariantCulture);
                     }
-                    finally
-                    {
-                        _visited.Remove(identifierName);
-                    }
+
+                    if (string.IsNullOrWhiteSpace(targetCell.Value))
+                        return 0.0;
+
+                    if (targetCell.Value.Equals("TRUE", StringComparison.OrdinalIgnoreCase)) return 1.0;
+                    if (targetCell.Value.Equals("FALSE", StringComparison.OrdinalIgnoreCase)) return 0.0;
+
+                    if (double.TryParse(targetCell.Value, out double cellValue))
+                        return cellValue;
+
+                    if (targetCell.Value.StartsWith("#"))
+                        throw new Exception($"Посилання на комірку з помилкою {identifierName} ('{targetCell.Value}')");
+
+                    throw new Exception($"Значення комірки {identifierName} ('{targetCell.Value}') не є числом.");
                 }
-
-                if (string.IsNullOrWhiteSpace(targetCell.Value))
-                    return 0.0;
-
-                if (targetCell.Value.Equals("TRUE", StringComparison.OrdinalIgnoreCase))  return 1.0;
-                if (targetCell.Value.Equals("FALSE", StringComparison.OrdinalIgnoreCase)) return 0.0;
-
-                if (double.TryParse(targetCell.Value, out double cellValue)) return cellValue;
-
-                if (targetCell.Value.StartsWith("#"))
-                    throw new Exception($"Посилання на комірку з помилкою {identifierName} ('{targetCell.Value}')");
-
-                throw new Exception($"Значення комірки {identifierName} ('{targetCell.Value}') не є числом.");
+                finally
+                {
+                    _visited.Remove(identifierName);
+                }
             }
             catch (Exception ex)
             {

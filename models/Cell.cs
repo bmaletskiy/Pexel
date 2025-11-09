@@ -27,19 +27,29 @@ namespace Pexel.models
             {
                 Expression = null;
                 Value = null;
+                // Очищаємо залежності
+                foreach (var dep in Dependencies)
+                {
+                    var depCell = sheet.GetCellById(dep);
+                    if (depCell != null)
+                    {
+                        depCell.DependentCells.Remove(Id);
+                    }
+                }
                 Dependencies.Clear();
+
+                // Перераховуємо всі залежні клітинки
                 RecalculateDependents(sheet);
                 return;
             }
 
             Expression = content;
-
             UpdateDependencies(sheet);
             CalculateValue(sheet);
             RecalculateDependents(sheet);
         }
 
-        public void CalculateValue(Sheet sheet)
+        public void CalculateValue(Sheet sheet, HashSet<string>? visited = null)
         {
             if (string.IsNullOrWhiteSpace(Expression))
             {
@@ -54,11 +64,35 @@ namespace Pexel.models
             }
 
             string formula = Expression.Substring(1);
+            visited ??= new HashSet<string>();
+            string upperId = Id.ToUpper();
 
             try
             {
+                if (visited.Contains(upperId))
+                {
+                    Value = "#ERR: Circular Reference";
+                    return;
+                }
+
+                visited.Add(upperId);
+
+                // Перевірка на циклічні посилання через рекурсивний обхід залежностей
+                foreach (var dep in Dependencies)
+                {
+                    var depCell = sheet.GetCellById(dep);
+                    if (depCell != null)
+                    {
+                        var chainVisited = new HashSet<string> { upperId };
+                        if (HasCircularReference(depCell, sheet, chainVisited))
+                        {
+                            Value = "#ERR: Circular Reference";
+                            return;
+                        }
+                    }
+                }
+
                 var calculator = new ExpressionCalculator(sheet);
-                var visited = new HashSet<string> { Id.ToUpper() };
                 double result = calculator.Evaluate(formula, visited);
                 Value = ConvertResultToDisplayValue(result, formula);
             }
@@ -66,8 +100,30 @@ namespace Pexel.models
             {
                 Value = "#ERR: " + ex.Message;
             }
+            finally
+            {
+                visited.Remove(upperId);
+            }
+        }
 
-            RecalculateDependents(sheet);
+        private bool HasCircularReference(Cell cell, Sheet sheet, HashSet<string> chainVisited)
+        {
+            if (string.IsNullOrWhiteSpace(cell.Expression) || !cell.Expression.StartsWith("="))
+                return false;
+
+            foreach (var dep in cell.Dependencies)
+            {
+                if (chainVisited.Contains(dep))
+                    return true;
+
+                chainVisited.Add(dep);
+                var nextCell = sheet.GetCellById(dep);
+                if (nextCell != null && HasCircularReference(nextCell, sheet, chainVisited))
+                    return true;
+                chainVisited.Remove(dep);
+            }
+
+            return false;
         }
 
         private string ConvertResultToDisplayValue(double result, string formula)
@@ -127,7 +183,6 @@ namespace Pexel.models
                 depCell.RecalculateDependents(sheet, visited);
             }
         }
-
 
         // Показати значення під час редагування
         public string ShowFocused()
