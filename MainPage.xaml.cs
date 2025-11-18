@@ -205,6 +205,15 @@ public partial class MainPage : ContentPage
         if (file == "Скасувати" || string.IsNullOrEmpty(file))
             return;
 
+        bool confirm = await DisplayAlert(
+            "Підтвердження",
+            "Ви дійсно хочете завантажити таблицю?\nУсі незбережені дані буде втрачено.",
+            "Так", "Ні"
+        );
+
+        if (!confirm)
+            return;
+
         string path = Path.Combine(folder, file);
 
         try
@@ -221,10 +230,32 @@ public partial class MainPage : ContentPage
     }
 
 
+
     private async void OnAboutClicked(object sender, EventArgs e)
-    {
-        await DisplayAlert("Про програму", "Pexel — простий редактор електронних таблиць з підтримкою арифметичних виразів. Автор програми - Малецький Богдан", "OK");
-    }
+{
+    await DisplayAlert(
+        "Про програму",
+        "Pexel — простий редактор електронних таблиць з підтримкою арифметичних виразів.\n" +
+        "Автор програми — Малецький Богдан.\n\n" +
+        "Програма може виконувати такі операції:\n" +
+        "EXPONENT     : '^'\n" +
+        "MULTIPLY     : '*'\n" +
+        "DIVIDE       : '/'\n" +
+        "MOD          : 'mod'\n" +
+        "DIV          : 'div'\n" +
+        "SUBTRACT     : '-'\n" +
+        "ADD          : '+'\n" +
+        "EQUAL        : '='\n" +
+        "LESS         : '<'\n" +
+        "GREATER      : '>'\n" +
+        "LESSEQUAL    : '<='\n" +
+        "GREATEREQUAL : '>='\n" +
+        "NOTEQUAL     : '<>'\n" +
+        "LPAREN       : '('\n" +
+        "RPAREN       : ')'",
+        "OK");
+}
+
 
     private async void OnExitClicked(object sender, EventArgs e)
     {
