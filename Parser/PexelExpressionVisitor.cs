@@ -27,7 +27,7 @@ namespace Pexel.ExpressionLogic
 
         public override double VisitIdentifierExpr(LabCalculatorParser.IdentifierExprContext context)
         {
-            var identifierName = context.GetText().ToUpper();
+            var identifierName = context.GetText();
 
             try
             {
